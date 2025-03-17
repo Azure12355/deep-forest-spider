@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="feat: 爬取所有的物种的元信息">
+    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="optimize: 修改配置并发数,优化爬虫效率">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" afterDir="false" />
     </list>
@@ -127,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742190441640</updated>
-      <workItem from="1742190519334" duration="12885000" />
+      <workItem from="1742190519334" duration="13244000" />
     </task>
     <task id="LOCAL-00001" summary="init: 项目初始化">
       <option name="closed" value="true" />
@@ -177,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742204352619</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="optimize: 修改配置并发数,优化爬虫效率">
+      <option name="closed" value="true" />
+      <created>1742205110279</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742205110279</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +209,8 @@
     <MESSAGE value="change: 更改病虫害数据的保存位置" />
     <MESSAGE value="feat: 提取所有物种id" />
     <MESSAGE value="feat: 爬取所有的物种的元信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 爬取所有的物种的元信息" />
+    <MESSAGE value="optimize: 修改配置并发数,优化爬虫效率" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize: 修改配置并发数,优化爬虫效率" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
