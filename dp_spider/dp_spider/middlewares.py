@@ -1,5 +1,5 @@
-from twisted.internet.ssl import ClientContextFactory
 from twisted.internet._sslverify import ClientTLSOptions
+from twisted.internet.ssl import ClientContextFactory
 
 
 class InsecureContextFactory(ClientContextFactory):

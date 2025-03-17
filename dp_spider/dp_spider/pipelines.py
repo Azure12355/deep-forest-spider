@@ -1,7 +1,8 @@
 import json
 import os
-
+from pathlib import Path
 from scrapy.utils import spider
+from itemadapter import ItemAdapter
 
 
 class JsonBatchPipeline:
@@ -31,3 +32,35 @@ class JsonBatchPipeline:
         self.data_buffer = []
         self.file_counter += 1
         spider.logger.info(f'已保存批次文件：{filename}')
+
+
+class MetaInfoJsonBatchPipeline:
+    def __init__(self):
+        self.batch_size = 10
+        self.data_buffer = []
+        self.batch_count = 1
+
+        # 创建输出目录
+        output_dir = 'data/meta_info_list'
+        self.output_dir = output_dir
+        os.makedirs(output_dir, exist_ok=True)
+
+    def process_item(self, item, spider):
+        self.data_buffer.append(ItemAdapter(item).asdict())
+        if len(self.data_buffer) >= self.batch_size:
+            self.flush_buffer()
+        return item
+
+    def close_spider(self, spider):
+        if self.data_buffer:
+            self.flush_buffer()
+
+    def flush_buffer(self):
+        """写入文件并清空缓冲区"""
+        filename = os.path.join(self.output_dir, f'meta_batch_{self.batch_count}.json')
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(self.data_buffer, f, ensure_ascii=False, indent=2)
+
+        spider.logger.info(f'✅ 成功写入批次 {self.batch_count}（{len(self.data_buffer)}条）')
+        self.data_buffer = []
+        self.batch_count += 1
