@@ -9,7 +9,7 @@ class JsonBatchPipeline:
         self.batch_size = 5000
         self.data_buffer = []
         self.file_counter = 1
-        self.output_dir = 'data'
+        self.output_dir = 'data/pests_list'
 
     def open_spider(self, spider):
         os.makedirs(self.output_dir, exist_ok=True)
