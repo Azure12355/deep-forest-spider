@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="init: 项目初始化">
-      <change afterPath="$PROJECT_DIR$/.idea/deep-forest-spider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="init: 初始化scrapy爬虫框架">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742190441640</updated>
-      <workItem from="1742190519334" duration="1314000" />
+      <workItem from="1742190519334" duration="5933000" />
     </task>
     <task id="LOCAL-00001" summary="init: 项目初始化">
       <option name="closed" value="true" />
@@ -102,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742190948818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init: 初始化scrapy爬虫框架">
+      <option name="closed" value="true" />
+      <created>1742191889874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742191889874</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init: 项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="init: 项目初始化" />
+    <MESSAGE value="init: 初始化scrapy爬虫框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="init: 初始化scrapy爬虫框架" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
