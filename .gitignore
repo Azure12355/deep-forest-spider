@@ -1,0 +1,118 @@
+### PyCharm IDE ###
+# PyCharm项目配置目录
+.idea/
+# PyCharm工作区文件
+*.iml
+# PyCharm运行配置
+.idea/runConfigurations/
+# PyCharm用户设置
+.idea/workspace.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/vcs.xml
+# PyCharm临时文件
+.idea/inspectionProfiles/
+.idea/shelf/
+.idea/tasks.xml
+
+### Python ###
+# 字节码缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+venv*/
+ENV/
+env.bak/
+venv.bak/
+pipenv
+
+# 包安装目录
+site/
+
+# 分发构建产物
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Python安装包缓存
+.python-version
+
+# 单元测试覆盖率
+.coverage
+htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+junit.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+### 开发环境文件 ###
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 敏感数据文件
+secrets.yml
+secrets.yaml
+config_*.py
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+### 操作系统生成文件 ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs*.db
+Desktop.ini
+
+# Linux
+*~
+
+### 开发工具 ###
+# VSCode（如果混用编辑器）
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# PyCharm备份文件
+*.swp
+*.swo
+
+# 调试日志
+*.log
+logs/
+
+### 项目自定义 ###
+# 本地开发配置文件（根据项目需要添加）
+/local_config.py
+/debug_settings.ini
+
+# 大文件/数据（建议用git-lfs管理）
+/data/
+*.csv
+*.h5
+*.npy
+*.pkl
