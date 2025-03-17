@@ -21,14 +21,16 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 16  # 根据服务器承受能力调整
+CONCURRENT_REQUESTS = 200  # 根据服务器承受能力调整
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 0.5  # 基础延迟
+DOWNLOAD_DELAY = 0  # 基础延迟
+# 优化下载超时
+DOWNLOAD_TIMEOUT = 30  # 避免卡死
 # The download delay setting will honor only one of:
-# CONCURRENT_REQUESTS_PER_DOMAIN = 16
+CONCURRENT_REQUESTS_PER_DOMAIN = 200
 # CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
@@ -92,3 +94,6 @@ AUTOTHROTTLE_ENABLED = True
 # Set settings whose default value is deprecated to a future-proof value
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+# 提升Twisted线程池
+REACTOR_THREADPOOL_MAXSIZE = 30  # 默认10

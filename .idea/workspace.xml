@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="feat: 提取所有物种id">
+    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="feat: 爬取所有的物种的元信息">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742190441640</updated>
-      <workItem from="1742190519334" duration="12471000" />
+      <workItem from="1742190519334" duration="12885000" />
     </task>
     <task id="LOCAL-00001" summary="init: 项目初始化">
       <option name="closed" value="true" />
@@ -172,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742203136150</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 爬取所有的物种的元信息">
+      <option name="closed" value="true" />
+      <created>1742204352619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742204352619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +200,8 @@
     <MESSAGE value="feat: 爬取所有的病虫害列表,total: 96932" />
     <MESSAGE value="change: 更改病虫害数据的保存位置" />
     <MESSAGE value="feat: 提取所有物种id" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 提取所有物种id" />
+    <MESSAGE value="feat: 爬取所有的物种的元信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 爬取所有的物种的元信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
