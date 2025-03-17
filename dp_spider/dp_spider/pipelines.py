@@ -36,7 +36,7 @@ class JsonBatchPipeline:
 
 class MetaInfoJsonBatchPipeline:
     def __init__(self):
-        self.batch_size = 10
+        self.batch_size = 5000
         self.data_buffer = []
         self.batch_count = 1
 

@@ -21,7 +21,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 200  # 根据服务器承受能力调整
+CONCURRENT_REQUESTS = 5000  # 根据服务器承受能力调整
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -97,3 +97,5 @@ FEED_EXPORT_ENCODING = "utf-8"
 
 # 提升Twisted线程池
 REACTOR_THREADPOOL_MAXSIZE = 30  # 默认10
+
+LOG_LEVEL = "ERROR"

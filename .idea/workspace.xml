@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="optimize: 修改配置并发数,优化爬虫效率">
-      <change beforePath="$PROJECT_DIR$/.idea/deep-forest-spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep-forest-spider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="config: 优化requirements.txt文件, 只安装必要第三方库">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/spiders/meta_info_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/spiders/meta_info_spider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,7 @@
       <updated>1742190441640</updated>
       <workItem from="1742190519334" duration="13244000" />
       <workItem from="1742224202083" duration="618000" />
-      <workItem from="1742225124242" duration="419000" />
+      <workItem from="1742225124242" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="init: 项目初始化">
       <option name="closed" value="true" />
@@ -194,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742205110279</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="config: 优化requirements.txt文件, 只安装必要第三方库">
+      <option name="closed" value="true" />
+      <created>1742225655404</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742225655404</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +227,8 @@
     <MESSAGE value="feat: 提取所有物种id" />
     <MESSAGE value="feat: 爬取所有的物种的元信息" />
     <MESSAGE value="optimize: 修改配置并发数,优化爬虫效率" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimize: 修改配置并发数,优化爬虫效率" />
+    <MESSAGE value="config: 优化requirements.txt文件, 只安装必要第三方库" />
+    <option name="LAST_COMMIT_MESSAGE" value="config: 优化requirements.txt文件, 只安装必要第三方库" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

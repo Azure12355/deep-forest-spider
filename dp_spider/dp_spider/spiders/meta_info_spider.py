@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 import scrapy
+from scrapy.utils import spider
 from scrapy.spiders import CrawlSpider
 
 from ..items import MetaInfoItem, YMMetaItem
@@ -11,9 +12,10 @@ class MetaInfoSpiderSpider(CrawlSpider):
     name = "meta_info_spider"
     allowed_domains = ['www.pestchina.com']
     custom_settings = {
-        'DOWNLOAD_DELAY': 1,  # 礼貌爬取间隔
-        'CONCURRENT_REQUESTS': 16  # 并发数
+        'DOWNLOAD_DELAY': 0,  # 礼貌爬取间隔
+        'CONCURRENT_REQUESTS': 5000  # 并发数
     }
+    count = 0
 
     def start_requests(self):
         # 计算pests_list目录绝对路径
@@ -69,5 +71,7 @@ class MetaInfoSpiderSpider(CrawlSpider):
             ym_item['SOtherNameSci'] = ym_data.get('SOtherNameSci')
             ym_list.append(dict(ym_item))
         item['ym'] = ym_list
-
+        self.count += 1
+        spider.logger.info(f'✅ 成功爬取数据第{self.count}条）')
+        print(f'✅ 成功爬取数据第{self.count}条, SCName={item["SCName"]}')
         return item
