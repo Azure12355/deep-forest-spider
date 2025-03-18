@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="config: 优化requirements.txt文件, 只安装必要第三方库">
+    <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="optimize: 修改配置并发数,优化爬虫效率">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/spiders/meta_info_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/spiders/meta_info_spider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +36,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.data_parse.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/weila/Projects/deep-forest-spider",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.data_parse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/weila/Projects/deep-forest-spider&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\deep-forest\deep-forest-spider\dp_spider\data\pests_list" />
@@ -136,7 +133,9 @@
       <updated>1742190441640</updated>
       <workItem from="1742190519334" duration="13244000" />
       <workItem from="1742224202083" duration="618000" />
-      <workItem from="1742225124242" duration="2118000" />
+      <workItem from="1742225124242" duration="2167000" />
+      <workItem from="1742260891864" duration="3686000" />
+      <workItem from="1742304789077" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="init: 项目初始化">
       <option name="closed" value="true" />
@@ -202,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742225655404</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="optimize: 修改配置并发数,优化爬虫效率">
+      <option name="closed" value="true" />
+      <created>1742227291196</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742227291196</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,9 +233,9 @@
     <MESSAGE value="change: 更改病虫害数据的保存位置" />
     <MESSAGE value="feat: 提取所有物种id" />
     <MESSAGE value="feat: 爬取所有的物种的元信息" />
-    <MESSAGE value="optimize: 修改配置并发数,优化爬虫效率" />
     <MESSAGE value="config: 优化requirements.txt文件, 只安装必要第三方库" />
-    <option name="LAST_COMMIT_MESSAGE" value="config: 优化requirements.txt文件, 只安装必要第三方库" />
+    <MESSAGE value="optimize: 修改配置并发数,优化爬虫效率" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize: 修改配置并发数,优化爬虫效率" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
