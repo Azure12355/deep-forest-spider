@@ -88,3 +88,35 @@ class MetaInfoItem(scrapy.Item):
 
     # 异名列表
     ym = scrapy.Field()  # 异名信息列表（包含YMMetaItem的字典）
+
+
+import scrapy
+
+
+# 物种分布信息
+class ICodeItem(scrapy.Item):
+    """文献引用信息项"""
+    # 文献唯一标识码 (如7000)
+    ICodeID = scrapy.Field()
+    # 作者显示信息 (如"CAB, 2006")
+    AuthorDisplay = scrapy.Field()
+    # 文献标题 (如"CPC2006")
+    Title = scrapy.Field()
+
+
+class SpeciesDistributionItem(scrapy.Item):
+    """物种分布信息主项"""
+    # 所属物种唯一标识（从species_id参数添加）
+    species_id = scrapy.Field()
+    # 记录行唯一标识 (如1)
+    rowid = scrapy.Field()
+    # 所属大洲名称 (如"北美洲")
+    CCnameContinent = scrapy.Field()
+    # 所属国家名称 (如"加拿大")
+    CCnameCountry = scrapy.Field()
+    # 所属省级行政区（可能为空） (如"艾伯塔省")
+    CCnameProvince = scrapy.Field()
+    # 分布描述文本 (如"存在 present")
+    Descrip = scrapy.Field()
+    # 关联的文献引用列表
+    Icodes = scrapy.Field()
