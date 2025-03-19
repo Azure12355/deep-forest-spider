@@ -116,3 +116,47 @@ class SpeciesDistributionPipeline:
         print(f'已写入 {len(self.data_buffer)} 条数据到 {file_path}')
         self.data_buffer = []
         self.file_counter += 1
+
+
+class SpeciesBasicInfoPipeline:
+    def __init__(self):
+        self.items = []  # 存储Item的列表
+        self.file_count = 0  # 文件编号
+        self.item_count = 0  # 当前记录数
+        self.max_items_per_file = 10  # 每个文件最大记录数
+        self.output_dir = 'data/species_basicinfo'  # 输出目录
+        if not os.path.exists(self.output_dir):
+            os.makedirs(self.output_dir)
+
+    def process_item(self, item, spider):
+        """处理每个 item，将其转换为字典并处理嵌套的 cankao 字段"""
+        # 将顶层 item 转换为字典
+        item_dict = dict(item)
+
+        # 检查 'cankao' 是否存在且不为空，然后将其转换为字典
+        if 'cankao' in item_dict and item_dict['cankao']:
+            item_dict['cankao'] = dict(item_dict['cankao'])
+
+        # 将完全转换后的字典添加到 items 列表
+        self.items.append(item_dict)
+
+
+        self.item_count += 1
+        if self.item_count >= self.max_items_per_file:
+            self.save_to_json()
+            self.items = []
+            self.item_count = 0
+            self.file_count += 1
+        return item
+
+    def close_spider(self, spider):
+        """爬虫结束时保存剩余的Item"""
+        if self.items:
+            self.save_to_json()
+
+    def save_to_json(self):
+        """将Item列表保存到JSON文件"""
+        filename = f'species_basicinfo_batch_{self.file_count}.json'
+        filepath = os.path.join(self.output_dir, filename)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(self.items, f, ensure_ascii=False, indent=4)

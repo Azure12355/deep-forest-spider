@@ -120,3 +120,101 @@ class SpeciesDistributionItem(scrapy.Item):
     Descrip = scrapy.Field()
     # 关联的文献引用列表
     Icodes = scrapy.Field()
+
+
+from scrapy import Item, Field
+
+
+# 物种基本信息
+
+class SpeciesBasicInfoItem(scrapy.Item):
+    # 行ID，标识每条记录的唯一编号
+    rowid = scrapy.Field()
+    # 物种基本信息GUID，系统内的唯一标识符
+    TP_GUID = scrapy.Field()
+    # 物种GUID，用于关联具体的物种
+    SC_GUID = scrapy.Field()
+    # 物种学名，科学的拉丁文名称
+    SSNameSci = scrapy.Field()
+    # 英文名，物种的英文名称，可能为空
+    SEName = scrapy.Field()
+    # 生物学特性，描述物种的生物学行为和特性
+    BiologicalProperties = scrapy.Field()
+    # 形态学特征，描述物种的物理外观特征
+    MorphologicalCharacteristics = scrapy.Field()
+    # 检测方法，描述检测该物种的方法或技术
+    DetectionMethod = scrapy.Field()
+    # 分布描述，描述物种的地理分布情况
+    DistributionDescription = scrapy.Field()
+    # 参考文献ID，关联的文献编号
+    ICodeID = scrapy.Field()
+    # 参考文献名称，文献的标题或名称
+    ICodeName = scrapy.Field()
+    # 页码，文献中相关内容的页数
+    Page = scrapy.Field()
+    # 备注，额外的说明或注释
+    Remark = scrapy.Field()
+    # 作者，记录的创建者
+    TP_AUTHOR = scrapy.Field()
+    # 创建时间，记录的创建时间戳
+    TP_CREATED = scrapy.Field()
+    # 编辑者，记录的最后编辑者
+    TP_EDITOR = scrapy.Field()
+    # 修改时间，记录的最后修改时间戳
+    TP_MODIFIED = scrapy.Field()
+    # 临时创建时间，临时的创建时间戳
+    Temp_CREATED = scrapy.Field()
+    # 临时形态学特征，临时的形态学描述
+    Temp_Morp = scrapy.Field()
+    # 参考文献信息，嵌套字段，包含详细的文献数据
+    cankao = scrapy.Field()
+
+class CankaoItem(scrapy.Item):
+    # 参考文献ID，文献的唯一标识符
+    Icode = scrapy.Field()
+    # 标题，文献的标题
+    Title = scrapy.Field()
+    # 来源标题，文献来源的标题（如期刊名）
+    SourceTitle = scrapy.Field()
+    # 发行作者，文献的作者列表
+    IssueAuthor = scrapy.Field()
+    # 作者显示，文献作者的显示格式
+    AuthorDisplay = scrapy.Field()
+    # 类型1，文献的分类类型1
+    ITypes1 = scrapy.Field()
+    # 类型，文献的主要类型
+    ITypes = scrapy.Field()
+    # 类型2，文献的分类类型2
+    ITypes2 = scrapy.Field()
+    # 关键词，文献的相关关键词
+    KeyWord = scrapy.Field()
+    # 国家/地区，文献发布国家或地区
+    CCname = scrapy.Field()
+    # 出版时间，文献的发布时间
+    PubTime = scrapy.Field()
+    # 出版商，文献的出版机构
+    Publisher = scrapy.Field()
+    # 衍生，文献的来源或引用信息
+    Derivation = scrapy.Field()
+    # 类型代码，文献的类型编码
+    TypeCode = scrapy.Field()
+    # 执行日期，文献的执行或生效日期
+    ExecuteDate = scrapy.Field()
+    # 参考，文献的参考信息
+    Reference = scrapy.Field()
+    # 摘要描述，文献的摘要内容
+    AbstractDesc = scrapy.Field()
+    # 作者，文献记录的创建者
+    TP_AUTHOR = scrapy.Field()
+    # 创建时间，文献记录的创建时间戳
+    TP_CREATED = scrapy.Field()
+    # 编辑者，文献记录的最后编辑者
+    TP_EDITOR = scrapy.Field()
+    # 修改时间，文献记录的最后修改时间戳
+    TP_MODIFIED = scrapy.Field()
+    # 发布人，文献的发布者
+    PublishPerson = scrapy.Field()
+    # 发布时间，文献的发布时间戳
+    PublishTime = scrapy.Field()
+    # 状态，文献的当前状态（如已确认）
+    Status = scrapy.Field()

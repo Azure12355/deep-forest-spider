@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f73490-7c47-4a9b-b84f-e649dce48ad1" name="Changes" comment="data: 爬取物种元信息meta_info">
+      <change afterPath="$PROJECT_DIR$/dp_spider/dp_spider/spiders/species_basicinfo_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deep-forest-spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep-forest-spider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/items.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_spider/dp_spider/pipelines.py" afterDir="false" />
@@ -23,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev_ylt" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev__ylt",
+    "git-widget-placeholder": "dev__ry",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/weila/Projects/deep-forest-spider",
     "node.js.detected.package.eslint": "true",
@@ -225,7 +233,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev_ry" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
