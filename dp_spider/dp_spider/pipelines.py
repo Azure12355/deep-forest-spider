@@ -160,3 +160,48 @@ class SpeciesBasicInfoPipeline:
         filepath = os.path.join(self.output_dir, filename)
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(self.items, f, ensure_ascii=False, indent=4)
+
+
+class SpeciesHostPipeline:
+    def __init__(self):
+        """
+        初始化Pipeline，设置存储参数
+        """
+        self.items = []  # 暂存Item的列表
+        self.batch_size = 5000  # 每批保存5000条数据
+        self.batch_count = 1  # 文件批次编号
+        # 输出目录路径
+        self.output_dir = 'data/species_host_list'  # 输出目录
+        os.makedirs(self.output_dir, exist_ok=True)  # 创建目录（如果不存在）
+
+    def process_item(self, item, spider):
+        """
+        处理每个Item，添加到列表并检查是否需要保存
+        """
+        # 将Item转换为字典
+        item_dict = dict(item)
+        # 处理嵌套的Icodes字段，转换为字典列表
+        item_dict['Icodes'] = [dict(icode) for icode in item_dict['Icodes']]
+        self.items.append(item_dict)
+        # 如果达到批次大小，保存数据
+        if len(self.items) >= self.batch_size:
+            self.save_batch()
+        return item
+
+    def save_batch(self):
+        """
+        将当前批次数据保存为JSON文件
+        """
+        filename = f'species_host_batch_{self.batch_count}.json'  # 文件名
+        filepath = os.path.join(self.output_dir, filename)  # 文件路径
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(self.items, f, ensure_ascii=False, indent=2)  # 保存为JSON
+        self.items = []  # 清空列表
+        self.batch_count += 1  # 增加批次编号
+
+    def close_spider(self, spider):
+        """
+        爬虫关闭时，保存剩余数据
+        """
+        if self.items:
+            self.save_batch()

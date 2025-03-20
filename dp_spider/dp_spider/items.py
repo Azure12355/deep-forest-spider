@@ -218,3 +218,26 @@ class CankaoItem(scrapy.Item):
     PublishTime = scrapy.Field()
     # 状态，文献的当前状态（如已确认）
     Status = scrapy.Field()
+
+
+# 物种的寄主信息
+
+
+class IcodeItem(scrapy.Item):
+    """
+    嵌套的Icodes字段的Item，用于存储文献引用信息
+    """
+    ICodeID = scrapy.Field()       # 文献引用ID，唯一标识文献
+    AuthorDisplay = scrapy.Field() # 作者展示信息，显示文献的作者姓名
+
+class SpeciesHostItem(scrapy.Item):
+    """
+    物种寄主关联列表的Item，用于存储物种与其寄主的关系信息
+    """
+    species_id = scrapy.Field()    # 物种的全局唯一标识 (SC_GUID)，用于关联原始物种ID
+    rowid = scrapy.Field()         # 数据行号，标识当前记录的序号
+    HOST_GUID = scrapy.Field()     # 寄主全局唯一标识，标识寄主的UUID
+    HOST_NAME = scrapy.Field()     # 寄主英文名称，寄主的学名或英文名
+    HOST_NAME_CN = scrapy.Field()  # 寄主中文名称，寄主的中文名
+    HostType = scrapy.Field()      # 寄主类型，描述寄主与物种的关系（如自然寄主、为害植物等）
+    Icodes = scrapy.Field()        # 关联的文献引用列表，嵌套的IcodeItem列表

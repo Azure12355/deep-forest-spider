@@ -69,7 +69,8 @@ ITEM_PIPELINES = {
     # "dp_spider.pipelines.JsonBatchPipeline": 300, # 请求所有物种列表
     # "dp_spider.pipelines.MetaInfoJsonBatchPipeline": 300,  # 请求物种元信息
     # "dp_spider.pipelines.SpeciesDistributionPipeline": 300,  # 请求物种分布信息
-    "dp_spider.pipelines.SpeciesBasicInfoPipeline": 300,  # 请求物种分布信息
+    # "dp_spider.pipelines.SpeciesBasicInfoPipeline": 300,  # 请求物种分布信息
+    'dp_spider.pipelines.SpeciesHostPipeline': 300, # 请求物种寄主信息
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
