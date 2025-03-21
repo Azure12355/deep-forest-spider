@@ -1,0 +1,902 @@
+[
+  {
+    "species_TP_GUID": "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1",
+    "ParentSsName": null,
+    "SLevel": "界",
+    "SSNameSci": "Fungi",
+    "TP_GUID": "91136d77-6c07-4116-b5f8-8b6cc019d4a0",
+    "SClass": "真菌",
+    "SCName": "真菌界"
+  },
+  {
+    "species_TP_GUID": "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1",
+    "ParentSsName": "Fungi",
+    "SLevel": "门",
+    "SSNameSci": "Basidiomycota",
+    "TP_GUID": "6b249448-037c-4046-a3d8-a914057146a0",
+    "SClass": "真菌",
+    "SCName": "担子菌门"
+  },
+  {
+    "species_TP_GUID": "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1",
+    "ParentSsName": "Basidiomycota",
+    "SLevel": "纲",
+    "SSNameSci": "Agaricomycetes",
+    "TP_GUID": "cece34e5-a936-4158-9299-e488b7d7a089",
+    "SClass": "真菌",
+    "SCName": "伞菌纲"
+  },
+  {
+    "species_TP_GUID": "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1",
+    "ParentSsName": "Agaricomycetes",
+    "SLevel": "目",
+    "SSNameSci": "Amylocorticiales",
+    "TP_GUID": "cfc24494-6cd6-483c-97c5-a25c61437a79",
+    "SClass": "真菌",
+    "SCName": "碘伏革菌目"
+  },
+  {
+    "species_TP_GUID": "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1",
+    "ParentSsName": "Amylocorticiales",
+    "SLevel": "科",
+    "SSNameSci": "Amylocorticiaceae",
+    "TP_GUID": "6881d50d-5218-4e4a-83c8-3462977941ac",
+    "SClass": "真菌",
+    "SCName": "粉伏革菌科"
+  },
+  {
+    "species_TP_GUID": "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1",
+    "ParentSsName": "Amylocorticiaceae",
+    "SLevel": "属",
+    "SSNameSci": "Agroathelia",
+    "TP_GUID": "409e2abd-9266-4d8a-a948-f48c755cca96",
+    "SClass": "真菌",
+    "SCName": "阿泰菌属"
+  },
+  {
+    "species_TP_GUID": "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1",
+    "ParentSsName": "Agroathelia",
+    "SLevel": "种",
+    "SSNameSci": "Agroathelia delphinii",
+    "TP_GUID": "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1",
+    "SClass": "真菌",
+    "SCName": "（阿泰菌属）"
+  },
+  {
+    "species_TP_GUID": "6fc59a9e-a026-48af-8db8-4ae1f4207aa2",
+    "ParentSsName": null,
+    "SLevel": "界",
+    "SSNameSci": "Fungi",
+    "TP_GUID": "91136d77-6c07-4116-b5f8-8b6cc019d4a0",
+    "SClass": "真菌",
+    "SCName": "真菌界"
+  },
+  {
+    "species_TP_GUID": "6fc59a9e-a026-48af-8db8-4ae1f4207aa2",
+    "ParentSsName": "Fungi",
+    "SLevel": "门",
+    "SSNameSci": "Basidiomycota",
+    "TP_GUID": "6b249448-037c-4046-a3d8-a914057146a0",
+    "SClass": "真菌",
+    "SCName": "担子菌门"
+  },
+  {
+    "species_TP_GUID": "6fc59a9e-a026-48af-8db8-4ae1f4207aa2",
+    "ParentSsName": "Basidiomycota",
+    "SLevel": "纲",
+    "SSNameSci": "Agaricomycetes",
+    "TP_GUID": "cece34e5-a936-4158-9299-e488b7d7a089",
+    "SClass": "真菌",
+    "SCName": "伞菌纲"
+  },
+  {
+    "species_TP_GUID": "6fc59a9e-a026-48af-8db8-4ae1f4207aa2",
+    "ParentSsName": "Agaricomycetes",
+    "SLevel": "目",
+    "SSNameSci": "Amylocorticiales",
+    "TP_GUID": "cfc24494-6cd6-483c-97c5-a25c61437a79",
+    "SClass": "真菌",
+    "SCName": "碘伏革菌目"
+  },
+  {
+    "species_TP_GUID": "6fc59a9e-a026-48af-8db8-4ae1f4207aa2",
+    "ParentSsName": "Amylocorticiales",
+    "SLevel": "科",
+    "SSNameSci": "Amylocorticiaceae",
+    "TP_GUID": "6881d50d-5218-4e4a-83c8-3462977941ac",
+    "SClass": "真菌",
+    "SCName": "粉伏革菌科"
+  },
+  {
+    "species_TP_GUID": "6fc59a9e-a026-48af-8db8-4ae1f4207aa2",
+    "ParentSsName": "Amylocorticiaceae",
+    "SLevel": "属",
+    "SSNameSci": "Agroathelia",
+    "TP_GUID": "409e2abd-9266-4d8a-a948-f48c755cca96",
+    "SClass": "真菌",
+    "SCName": "阿泰菌属"
+  },
+  {
+    "species_TP_GUID": "6fc59a9e-a026-48af-8db8-4ae1f4207aa2",
+    "ParentSsName": "Agroathelia",
+    "SLevel": "种",
+    "SSNameSci": "Agroathelia rolfsii",
+    "TP_GUID": "6fc59a9e-a026-48af-8db8-4ae1f4207aa2",
+    "SClass": "真菌",
+    "SCName": "罗耳阿太菌(齐整小核菌有性态)"
+  },
+  {
+    "species_TP_GUID": "1cff49ae-dd55-4a02-8546-50fee3cced04",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "1cff49ae-dd55-4a02-8546-50fee3cced04",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Angiospermae",
+    "TP_GUID": "d1774ef0-036a-427b-b8de-0f2754b3ea9d",
+    "SClass": "植物",
+    "SCName": "被子植物门"
+  },
+  {
+    "species_TP_GUID": "1cff49ae-dd55-4a02-8546-50fee3cced04",
+    "ParentSsName": "Angiospermae",
+    "SLevel": "纲",
+    "SSNameSci": "Dicotyledonae",
+    "TP_GUID": "e7e5aa37-f84a-40b3-89f0-b84c55181d86",
+    "SClass": "杂草",
+    "SCName": "双子叶植物纲"
+  },
+  {
+    "species_TP_GUID": "1cff49ae-dd55-4a02-8546-50fee3cced04",
+    "ParentSsName": "Dicotyledonae",
+    "SLevel": "目",
+    "SSNameSci": "Euphorbiales",
+    "TP_GUID": "52efb0e6-448b-4969-b67f-2b8e1a38bf22",
+    "SClass": "杂草",
+    "SCName": "大戟目"
+  },
+  {
+    "species_TP_GUID": "1cff49ae-dd55-4a02-8546-50fee3cced04",
+    "ParentSsName": "Euphorbiales",
+    "SLevel": "科",
+    "SSNameSci": "Euphorbiaceae",
+    "TP_GUID": "b1690c9d-a8a7-4a52-b330-7ef48f828a3d",
+    "SClass": "杂草",
+    "SCName": "大戟科"
+  },
+  {
+    "species_TP_GUID": "1cff49ae-dd55-4a02-8546-50fee3cced04",
+    "ParentSsName": "Euphorbiaceae",
+    "SLevel": "属",
+    "SSNameSci": "Euphorbia",
+    "TP_GUID": "f59b3ddf-1fad-47e3-a8bc-ea35934b7474",
+    "SClass": "杂草",
+    "SCName": "大戟属"
+  },
+  {
+    "species_TP_GUID": "1cff49ae-dd55-4a02-8546-50fee3cced04",
+    "ParentSsName": "Euphorbia",
+    "SLevel": "种",
+    "SSNameSci": "Euphorbia davidii",
+    "TP_GUID": "1cff49ae-dd55-4a02-8546-50fee3cced04",
+    "SClass": "植物",
+    "SCName": "戴维大戟"
+  },
+  {
+    "species_TP_GUID": "e0acc296-70cd-4a76-8279-45fa5eef0e77",
+    "ParentSsName": null,
+    "SLevel": "界",
+    "SSNameSci": "Fungi",
+    "TP_GUID": "91136d77-6c07-4116-b5f8-8b6cc019d4a0",
+    "SClass": "真菌",
+    "SCName": "真菌界"
+  },
+  {
+    "species_TP_GUID": "e0acc296-70cd-4a76-8279-45fa5eef0e77",
+    "ParentSsName": "Fungi",
+    "SLevel": "门",
+    "SSNameSci": "Ascomycota",
+    "TP_GUID": "c2428917-30eb-43cf-bdad-6ce5d4a28f28",
+    "SClass": "真菌",
+    "SCName": "子囊菌门"
+  },
+  {
+    "species_TP_GUID": "e0acc296-70cd-4a76-8279-45fa5eef0e77",
+    "ParentSsName": "Ascomycota",
+    "SLevel": "纲",
+    "SSNameSci": "Dothideomycetes",
+    "TP_GUID": "8f177e62-4e57-47d7-bca0-195fbb8e0f9e",
+    "SClass": "真菌",
+    "SCName": "座囊菌纲"
+  },
+  {
+    "species_TP_GUID": "e0acc296-70cd-4a76-8279-45fa5eef0e77",
+    "ParentSsName": "Dothideomycetes",
+    "SLevel": "目",
+    "SSNameSci": "Pleosporales",
+    "TP_GUID": "7d1779c2-241c-4a26-ad1f-f7acb10bb219",
+    "SClass": "真菌",
+    "SCName": "格孢腔菌目"
+  },
+  {
+    "species_TP_GUID": "e0acc296-70cd-4a76-8279-45fa5eef0e77",
+    "ParentSsName": "Pleosporales",
+    "SLevel": "科",
+    "SSNameSci": "Didymellaceae",
+    "TP_GUID": "3c92ea3a-2447-404c-a028-c7a77b3e1750",
+    "SClass": "真菌",
+    "SCName": "亚隔孢壳科"
+  },
+  {
+    "species_TP_GUID": "e0acc296-70cd-4a76-8279-45fa5eef0e77",
+    "ParentSsName": "Didymellaceae",
+    "SLevel": "属",
+    "SSNameSci": "Stagonosporopsis",
+    "TP_GUID": "eb1661cc-cd6e-46d9-a440-dcba0905ed8c",
+    "SClass": "真菌",
+    "SCName": "拟壳多孢属"
+  },
+  {
+    "species_TP_GUID": "e0acc296-70cd-4a76-8279-45fa5eef0e77",
+    "ParentSsName": "Stagonosporopsis",
+    "SLevel": "种",
+    "SSNameSci": "Stagonosporopsis ligulicola",
+    "TP_GUID": "e0acc296-70cd-4a76-8279-45fa5eef0e77",
+    "SClass": "真菌",
+    "SCName": "菊花花枯病菌"
+  },
+  {
+    "species_TP_GUID": "e16e8248-0c8a-4ad4-888b-ff36c2e92710",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "e16e8248-0c8a-4ad4-888b-ff36c2e92710",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "e16e8248-0c8a-4ad4-888b-ff36c2e92710",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "e16e8248-0c8a-4ad4-888b-ff36c2e92710",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Santalales",
+    "TP_GUID": "fa6a4465-4e7d-48f3-af04-b4b82a2915be",
+    "SClass": "杂草",
+    "SCName": "檀香目"
+  },
+  {
+    "species_TP_GUID": "e16e8248-0c8a-4ad4-888b-ff36c2e92710",
+    "ParentSsName": "Santalales",
+    "SLevel": "科",
+    "SSNameSci": "Santalaceae",
+    "TP_GUID": "f082f705-3ce2-4de3-bcfa-63a9fe9f877a",
+    "SClass": "杂草",
+    "SCName": "檀香科"
+  },
+  {
+    "species_TP_GUID": "e16e8248-0c8a-4ad4-888b-ff36c2e92710",
+    "ParentSsName": "Santalaceae",
+    "SLevel": "属",
+    "SSNameSci": "Phoradendron",
+    "TP_GUID": "e16e8248-0c8a-4ad4-888b-ff36c2e92710",
+    "SClass": "植物",
+    "SCName": "肉穗寄生属"
+  },
+  {
+    "species_TP_GUID": "4b7da8f1-6e27-453c-80e3-6aac92eea273",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "4b7da8f1-6e27-453c-80e3-6aac92eea273",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "4b7da8f1-6e27-453c-80e3-6aac92eea273",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "4b7da8f1-6e27-453c-80e3-6aac92eea273",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Santalales",
+    "TP_GUID": "fa6a4465-4e7d-48f3-af04-b4b82a2915be",
+    "SClass": "杂草",
+    "SCName": "檀香目"
+  },
+  {
+    "species_TP_GUID": "4b7da8f1-6e27-453c-80e3-6aac92eea273",
+    "ParentSsName": "Santalales",
+    "SLevel": "科",
+    "SSNameSci": "Santalaceae",
+    "TP_GUID": "f082f705-3ce2-4de3-bcfa-63a9fe9f877a",
+    "SClass": "杂草",
+    "SCName": "檀香科"
+  },
+  {
+    "species_TP_GUID": "4b7da8f1-6e27-453c-80e3-6aac92eea273",
+    "ParentSsName": "Santalaceae",
+    "SLevel": "属",
+    "SSNameSci": "Phoradendron",
+    "TP_GUID": "e16e8248-0c8a-4ad4-888b-ff36c2e92710",
+    "SClass": "植物",
+    "SCName": "肉穗寄生属"
+  },
+  {
+    "species_TP_GUID": "4b7da8f1-6e27-453c-80e3-6aac92eea273",
+    "ParentSsName": "Phoradendron",
+    "SLevel": "种",
+    "SSNameSci": "Phoradendron leucarpum",
+    "TP_GUID": "4b7da8f1-6e27-453c-80e3-6aac92eea273",
+    "SClass": "植物",
+    "SCName": "北美肉穗寄生"
+  },
+  {
+    "species_TP_GUID": "59793486-2b9f-4686-a66a-76fe9640d5b7",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "59793486-2b9f-4686-a66a-76fe9640d5b7",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "59793486-2b9f-4686-a66a-76fe9640d5b7",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "59793486-2b9f-4686-a66a-76fe9640d5b7",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Myrtales",
+    "TP_GUID": "83284c75-62f1-450f-9d3a-ebad43a20c66",
+    "SClass": "杂草",
+    "SCName": "桃金娘目"
+  },
+  {
+    "species_TP_GUID": "59793486-2b9f-4686-a66a-76fe9640d5b7",
+    "ParentSsName": "Myrtales",
+    "SLevel": "科",
+    "SSNameSci": "Myrtaceae",
+    "TP_GUID": "aba5d5e5-bbe9-49ba-b0aa-3bc09f303651",
+    "SClass": "杂草",
+    "SCName": "桃金娘科"
+  },
+  {
+    "species_TP_GUID": "59793486-2b9f-4686-a66a-76fe9640d5b7",
+    "ParentSsName": "Myrtaceae",
+    "SLevel": "属",
+    "SSNameSci": "Lophostemon",
+    "TP_GUID": "59793486-2b9f-4686-a66a-76fe9640d5b7",
+    "SClass": "植物",
+    "SCName": "红胶木属"
+  },
+  {
+    "species_TP_GUID": "35b64dc2-0ffb-4a8e-b389-b4872d971a35",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "35b64dc2-0ffb-4a8e-b389-b4872d971a35",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Angiospermae",
+    "TP_GUID": "d1774ef0-036a-427b-b8de-0f2754b3ea9d",
+    "SClass": "植物",
+    "SCName": "被子植物门"
+  },
+  {
+    "species_TP_GUID": "35b64dc2-0ffb-4a8e-b389-b4872d971a35",
+    "ParentSsName": "Angiospermae",
+    "SLevel": "纲",
+    "SSNameSci": "Dicotyledonae",
+    "TP_GUID": "e7e5aa37-f84a-40b3-89f0-b84c55181d86",
+    "SClass": "杂草",
+    "SCName": "双子叶植物纲"
+  },
+  {
+    "species_TP_GUID": "35b64dc2-0ffb-4a8e-b389-b4872d971a35",
+    "ParentSsName": "Dicotyledonae",
+    "SLevel": "目",
+    "SSNameSci": "Solanales",
+    "TP_GUID": "04a65bd3-30e3-4277-b7c2-a13222d26f66",
+    "SClass": "杂草",
+    "SCName": "茄目"
+  },
+  {
+    "species_TP_GUID": "35b64dc2-0ffb-4a8e-b389-b4872d971a35",
+    "ParentSsName": "Solanales",
+    "SLevel": "科",
+    "SSNameSci": "Solanaceae",
+    "TP_GUID": "3b21b3a8-15b0-4870-965f-39984ff119ff",
+    "SClass": "杂草",
+    "SCName": "茄科"
+  },
+  {
+    "species_TP_GUID": "35b64dc2-0ffb-4a8e-b389-b4872d971a35",
+    "ParentSsName": "Solanaceae",
+    "SLevel": "属",
+    "SSNameSci": "Physalis",
+    "TP_GUID": "aeb0f477-78cd-491f-8637-bb83f229dee0",
+    "SClass": "杂草",
+    "SCName": "酸浆属；洋酸浆属"
+  },
+  {
+    "species_TP_GUID": "35b64dc2-0ffb-4a8e-b389-b4872d971a35",
+    "ParentSsName": "Physalis",
+    "SLevel": "种",
+    "SSNameSci": "Physalis philadelphica",
+    "TP_GUID": "35b64dc2-0ffb-4a8e-b389-b4872d971a35",
+    "SClass": "植物",
+    "SCName": "毛酸浆、费城酸浆"
+  },
+  {
+    "species_TP_GUID": "47e9f834-104d-4876-a0fa-e986c7d92b2a",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "47e9f834-104d-4876-a0fa-e986c7d92b2a",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "47e9f834-104d-4876-a0fa-e986c7d92b2a",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "47e9f834-104d-4876-a0fa-e986c7d92b2a",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Asterales",
+    "TP_GUID": "c4fe3024-8bcd-4470-b82f-63a7d2ce2ab2",
+    "SClass": "杂草",
+    "SCName": "菊目"
+  },
+  {
+    "species_TP_GUID": "47e9f834-104d-4876-a0fa-e986c7d92b2a",
+    "ParentSsName": "Asterales",
+    "SLevel": "科",
+    "SSNameSci": "Asteraceae",
+    "TP_GUID": "5658ba6b-faeb-4e04-917d-6e79322ab8b1",
+    "SClass": "杂草",
+    "SCName": "菊科"
+  },
+  {
+    "species_TP_GUID": "47e9f834-104d-4876-a0fa-e986c7d92b2a",
+    "ParentSsName": "Asteraceae",
+    "SLevel": "属",
+    "SSNameSci": "Verbesina",
+    "TP_GUID": "a1f22a65-6f97-4576-99ac-2379fd1eb82b",
+    "SClass": "杂草",
+    "SCName": "马鞭菊属"
+  },
+  {
+    "species_TP_GUID": "47e9f834-104d-4876-a0fa-e986c7d92b2a",
+    "ParentSsName": "Verbesina",
+    "SLevel": "种",
+    "SSNameSci": "Verbesina encelioides",
+    "TP_GUID": "47e9f834-104d-4876-a0fa-e986c7d92b2a",
+    "SClass": "植物",
+    "SCName": "(马鞭菊属)"
+  },
+  {
+    "species_TP_GUID": "66ae922e-ac85-4271-a12f-39bb11d708c1",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "66ae922e-ac85-4271-a12f-39bb11d708c1",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Angiospermae",
+    "TP_GUID": "d1774ef0-036a-427b-b8de-0f2754b3ea9d",
+    "SClass": "植物",
+    "SCName": "被子植物门"
+  },
+  {
+    "species_TP_GUID": "66ae922e-ac85-4271-a12f-39bb11d708c1",
+    "ParentSsName": "Angiospermae",
+    "SLevel": "纲",
+    "SSNameSci": "Dicotyledonae",
+    "TP_GUID": "e7e5aa37-f84a-40b3-89f0-b84c55181d86",
+    "SClass": "杂草",
+    "SCName": "双子叶植物纲"
+  },
+  {
+    "species_TP_GUID": "66ae922e-ac85-4271-a12f-39bb11d708c1",
+    "ParentSsName": "Dicotyledonae",
+    "SLevel": "目",
+    "SSNameSci": "Urticales",
+    "TP_GUID": "ad2a29f8-78bd-4f38-97a2-f34f26dd14a4",
+    "SClass": "杂草",
+    "SCName": "荨麻目"
+  },
+  {
+    "species_TP_GUID": "66ae922e-ac85-4271-a12f-39bb11d708c1",
+    "ParentSsName": "Urticales",
+    "SLevel": "科",
+    "SSNameSci": "Urticaceae",
+    "TP_GUID": "1a5c6a13-520e-4923-b59c-d9acf66a359d",
+    "SClass": "杂草",
+    "SCName": "荨麻科"
+  },
+  {
+    "species_TP_GUID": "66ae922e-ac85-4271-a12f-39bb11d708c1",
+    "ParentSsName": "Urticaceae",
+    "SLevel": "属",
+    "SSNameSci": "Urtica",
+    "TP_GUID": "863b111c-d61f-4c21-bfdc-34391eb340cb",
+    "SClass": "杂草",
+    "SCName": "荨麻属"
+  },
+  {
+    "species_TP_GUID": "66ae922e-ac85-4271-a12f-39bb11d708c1",
+    "ParentSsName": "Urtica",
+    "SLevel": "种",
+    "SSNameSci": "Urtica gracilis",
+    "TP_GUID": "66ae922e-ac85-4271-a12f-39bb11d708c1",
+    "SClass": "植物",
+    "SCName": "细荨麻"
+  },
+  {
+    "species_TP_GUID": "10ae048b-492d-42cb-8a74-971bd6b4117c",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "10ae048b-492d-42cb-8a74-971bd6b4117c",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "10ae048b-492d-42cb-8a74-971bd6b4117c",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "10ae048b-492d-42cb-8a74-971bd6b4117c",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Sapindales",
+    "TP_GUID": "ae862c51-d49d-4583-ac7d-95f9bdba4821",
+    "SClass": "杂草",
+    "SCName": "无患子目"
+  },
+  {
+    "species_TP_GUID": "10ae048b-492d-42cb-8a74-971bd6b4117c",
+    "ParentSsName": "Sapindales",
+    "SLevel": "科",
+    "SSNameSci": "Anacardiaceae",
+    "TP_GUID": "412cf987-5c60-40c1-9a17-18fc17200a77",
+    "SClass": "杂草",
+    "SCName": "漆树科"
+  },
+  {
+    "species_TP_GUID": "10ae048b-492d-42cb-8a74-971bd6b4117c",
+    "ParentSsName": "Anacardiaceae",
+    "SLevel": "属",
+    "SSNameSci": "Toxicodendron",
+    "TP_GUID": "5c9734d6-3d96-4693-8661-b5563aeb18d6",
+    "SClass": "杂草",
+    "SCName": "漆属"
+  },
+  {
+    "species_TP_GUID": "10ae048b-492d-42cb-8a74-971bd6b4117c",
+    "ParentSsName": "Toxicodendron",
+    "SLevel": "种",
+    "SSNameSci": "Toxicodendron pubescens",
+    "TP_GUID": "10ae048b-492d-42cb-8a74-971bd6b4117c",
+    "SClass": "植物",
+    "SCName": "大西洋毒漆"
+  },
+  {
+    "species_TP_GUID": "39ece41d-2b08-4851-bde4-ef00bd8f5af9",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "39ece41d-2b08-4851-bde4-ef00bd8f5af9",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "39ece41d-2b08-4851-bde4-ef00bd8f5af9",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "39ece41d-2b08-4851-bde4-ef00bd8f5af9",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Fabales",
+    "TP_GUID": "f5b5a62a-36bf-42cf-975a-abd53f685f7c",
+    "SClass": "杂草",
+    "SCName": "豆目"
+  },
+  {
+    "species_TP_GUID": "39ece41d-2b08-4851-bde4-ef00bd8f5af9",
+    "ParentSsName": "Fabales",
+    "SLevel": "科",
+    "SSNameSci": "Fabaceae",
+    "TP_GUID": "52c1dc5a-205c-407d-8b61-7abe83baaeb4",
+    "SClass": "杂草",
+    "SCName": "豆科"
+  },
+  {
+    "species_TP_GUID": "39ece41d-2b08-4851-bde4-ef00bd8f5af9",
+    "ParentSsName": "Fabaceae",
+    "SLevel": "属",
+    "SSNameSci": "Strophostyles",
+    "TP_GUID": "39ece41d-2b08-4851-bde4-ef00bd8f5af9",
+    "SClass": "植物",
+    "SCName": "曲柱豆属"
+  },
+  {
+    "species_TP_GUID": "64ebef9d-e3e4-49b1-84cc-f9c0ad26d92e",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "64ebef9d-e3e4-49b1-84cc-f9c0ad26d92e",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Angiospermae",
+    "TP_GUID": "d1774ef0-036a-427b-b8de-0f2754b3ea9d",
+    "SClass": "植物",
+    "SCName": "被子植物门"
+  },
+  {
+    "species_TP_GUID": "64ebef9d-e3e4-49b1-84cc-f9c0ad26d92e",
+    "ParentSsName": "Angiospermae",
+    "SLevel": "纲",
+    "SSNameSci": "Dicotyledonae",
+    "TP_GUID": "e7e5aa37-f84a-40b3-89f0-b84c55181d86",
+    "SClass": "杂草",
+    "SCName": "双子叶植物纲"
+  },
+  {
+    "species_TP_GUID": "64ebef9d-e3e4-49b1-84cc-f9c0ad26d92e",
+    "ParentSsName": "Dicotyledonae",
+    "SLevel": "目",
+    "SSNameSci": "Euphorbiales",
+    "TP_GUID": "52efb0e6-448b-4969-b67f-2b8e1a38bf22",
+    "SClass": "杂草",
+    "SCName": "大戟目"
+  },
+  {
+    "species_TP_GUID": "64ebef9d-e3e4-49b1-84cc-f9c0ad26d92e",
+    "ParentSsName": "Euphorbiales",
+    "SLevel": "科",
+    "SSNameSci": "Euphorbiaceae",
+    "TP_GUID": "b1690c9d-a8a7-4a52-b330-7ef48f828a3d",
+    "SClass": "杂草",
+    "SCName": "大戟科"
+  },
+  {
+    "species_TP_GUID": "64ebef9d-e3e4-49b1-84cc-f9c0ad26d92e",
+    "ParentSsName": "Euphorbiaceae",
+    "SLevel": "属",
+    "SSNameSci": "Stillingia",
+    "TP_GUID": "64ebef9d-e3e4-49b1-84cc-f9c0ad26d92e",
+    "SClass": "植物",
+    "SCName": "齿桕属"
+  },
+  {
+    "species_TP_GUID": "443250e6-c347-446b-abf7-ee99d50eaf18",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "443250e6-c347-446b-abf7-ee99d50eaf18",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "443250e6-c347-446b-abf7-ee99d50eaf18",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "443250e6-c347-446b-abf7-ee99d50eaf18",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Campanulales",
+    "TP_GUID": "1c2a9ffc-6c58-4222-a97e-441fc631ff09",
+    "SClass": "杂草",
+    "SCName": "桔梗目"
+  },
+  {
+    "species_TP_GUID": "443250e6-c347-446b-abf7-ee99d50eaf18",
+    "ParentSsName": "Campanulales",
+    "SLevel": "科",
+    "SSNameSci": "Campanulaceae",
+    "TP_GUID": "88353bef-cb20-4a2e-9be9-d4524cab0b62",
+    "SClass": "杂草",
+    "SCName": "桔梗科"
+  },
+  {
+    "species_TP_GUID": "443250e6-c347-446b-abf7-ee99d50eaf18",
+    "ParentSsName": "Campanulaceae",
+    "SLevel": "属",
+    "SSNameSci": "Lobelia",
+    "TP_GUID": "085ea5be-3e17-45ec-8bb0-ad66d790b1eb",
+    "SClass": "杂草",
+    "SCName": "半边莲属"
+  },
+  {
+    "species_TP_GUID": "443250e6-c347-446b-abf7-ee99d50eaf18",
+    "ParentSsName": "Lobelia",
+    "SLevel": "种",
+    "SSNameSci": "Lobelia inflata",
+    "TP_GUID": "443250e6-c347-446b-abf7-ee99d50eaf18",
+    "SClass": "植物",
+    "SCName": "北美山梗菜"
+  },
+  {
+    "species_TP_GUID": "397cd4e7-539e-4f5c-84a3-9b2f76ed28fd",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "397cd4e7-539e-4f5c-84a3-9b2f76ed28fd",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "397cd4e7-539e-4f5c-84a3-9b2f76ed28fd",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "397cd4e7-539e-4f5c-84a3-9b2f76ed28fd",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Asterales",
+    "TP_GUID": "c4fe3024-8bcd-4470-b82f-63a7d2ce2ab2",
+    "SClass": "杂草",
+    "SCName": "菊目"
+  },
+  {
+    "species_TP_GUID": "397cd4e7-539e-4f5c-84a3-9b2f76ed28fd",
+    "ParentSsName": "Asterales",
+    "SLevel": "科",
+    "SSNameSci": "Asteraceae",
+    "TP_GUID": "5658ba6b-faeb-4e04-917d-6e79322ab8b1",
+    "SClass": "杂草",
+    "SCName": "菊科"
+  },
+  {
+    "species_TP_GUID": "397cd4e7-539e-4f5c-84a3-9b2f76ed28fd",
+    "ParentSsName": "Asteraceae",
+    "SLevel": "属",
+    "SSNameSci": "Krigia",
+    "TP_GUID": "397cd4e7-539e-4f5c-84a3-9b2f76ed28fd",
+    "SClass": "植物",
+    "SCName": "双冠苣属"
+  }
+]

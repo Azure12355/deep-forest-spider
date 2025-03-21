@@ -9,6 +9,9 @@ class SpeciesHostSpider(scrapy.Spider):
     allowed_domains = ['www.pestchina.com']  # 限制爬取的域名
     base_url = 'http://www.pestchina.com/webapi/nb/SpeciesHost/list/concat'  # 请求的目标URL
     count = 0
+    num = 0
+    cnt = 0
+    temp = ''
 
     def start_requests(self):
         """
@@ -34,7 +37,7 @@ class SpeciesHostSpider(scrapy.Spider):
             'needCk': 'true',             # 是否需要权限校验，固定为true
             'key': '',                    # 寄主名称关键词过滤，留空表示不过滤
             'SC_GUID': species_id,        # 物种全局唯一标识
-            'paging[pagecount]': '5000',    # 每页返回的数据条数，固定为18
+            'paging[pagecount]': '500',    # 每页返回的数据条数，固定为18
             'paging[pagenum]': str(page), # 当前请求的页码
             'paging[totalpage]': '86'     # 总页数初始值，后续由响应更新
         }
@@ -83,7 +86,14 @@ class SpeciesHostSpider(scrapy.Spider):
                 icodes.append(icode_item)
             item['Icodes'] = icodes
             self.count += 1
+            if self.temp != item['species_id']:
+                self.temp = item['species_id']
+                self.num += 1
+                self.cnt = 1
+            else:
+                self.cnt += 1
             print(f'✅ 成功爬取数据第{self.count}条'
+                  f' --- 第{self.num}个物种的第{self.cnt}个寄主'
                   f'HOST_NAME_CN={item["HOST_NAME_CN"]}')
             yield item  # 提交Item到Pipeline
 

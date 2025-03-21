@@ -181,7 +181,8 @@ class SpeciesHostPipeline:
         # 将Item转换为字典
         item_dict = dict(item)
         # 处理嵌套的Icodes字段，转换为字典列表
-        item_dict['Icodes'] = [dict(icode) for icode in item_dict['Icodes']]
+        if 'Icodes' in item_dict:
+            item_dict['Icodes'] = [dict(icode) for icode in item_dict['Icodes']]
         self.items.append(item_dict)
         # 如果达到批次大小，保存数据
         if len(self.items) >= self.batch_size:
@@ -205,3 +206,37 @@ class SpeciesHostPipeline:
         """
         if self.items:
             self.save_batch()
+
+
+class SpeciesParentPipeline:
+    def __init__(self):
+        """初始化管道，设置批次大小和输出目录"""
+        self.items = []  # 存储 Item 的列表
+        self.batch_size = 100  # 每批保存 5000 条数据
+        self.batch_num = 1  # 当前批次编号
+        self.output_dir = 'data/species_parent_list'  # 输出目录
+        # 确保输出目录存在
+        if not os.path.exists(self.output_dir):
+            os.makedirs(self.output_dir)
+
+    def process_item(self, item, spider):
+        """处理每个 Item，添加到列表并在达到批次大小时保存"""
+        self.items.append(dict(item))  # 将 Item 转换为字典
+        if len(self.items) >= self.batch_size:
+            self.save_to_json()
+        return item
+
+    def close_spider(self, spider):
+        """爬虫关闭时保存剩余的 Item"""
+        if self.items:
+            self.save_to_json()
+
+    def save_to_json(self):
+        """将当前批次的 Item 保存到 JSON 文件"""
+        filename = f'species_parent_batch_{self.batch_num}.json'
+        filepath = os.path.join(self.output_dir, filename)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(self.items, f, ensure_ascii=False, indent=2)  # 保存为 JSON 文件
+        self.items = []  # 清空列表
+        self.batch_num += 1  # 增加批次编号
+

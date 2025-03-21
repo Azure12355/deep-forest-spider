@@ -1,0 +1,902 @@
+[
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus treubiae",
+    "TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus thrysopteris",
+    "TP_GUID": "cca19236-fcdf-40e7-9062-fc6988acbd60",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus tanaceti",
+    "TP_GUID": "e9e11ed3-5ecd-42aa-a6f9-1943406993fc",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus streptoglossae",
+    "TP_GUID": "fc0250ac-2e2b-44c1-b407-0e99d6a9aa0b",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus silenis",
+    "TP_GUID": "76228c2d-1b15-4071-91e4-cb85fe003f89",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus ribes",
+    "TP_GUID": "3ec89380-6cca-4cbb-8104-5a41c6526f95",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus raphani",
+    "TP_GUID": "8b3da3d7-6ea1-464a-9d0b-5a5a3ea0ba91",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus ranunculi",
+    "TP_GUID": "e883c9fa-b331-4f70-ae8a-d9c674da4680",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus primulae",
+    "TP_GUID": "dcc31417-4fcb-4f77-a510-5517c171d8de",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus penniseti",
+    "TP_GUID": "296aa3c0-b71a-4c52-85cc-b308494c5af2",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "0914181a-464b-4cb4-b786-633e686b0ddb",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "0914181a-464b-4cb4-b786-633e686b0ddb",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "0914181a-464b-4cb4-b786-633e686b0ddb",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "0914181a-464b-4cb4-b786-633e686b0ddb",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "0914181a-464b-4cb4-b786-633e686b0ddb",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "0914181a-464b-4cb4-b786-633e686b0ddb",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "0914181a-464b-4cb4-b786-633e686b0ddb",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "species_TP_GUID": "643a8a6f-c8b6-4301-956b-fe73e7a9bd6a",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "643a8a6f-c8b6-4301-956b-fe73e7a9bd6a",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "643a8a6f-c8b6-4301-956b-fe73e7a9bd6a",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "643a8a6f-c8b6-4301-956b-fe73e7a9bd6a",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Polygalales",
+    "TP_GUID": "9bdd971b-a149-49ac-994f-b6c26b04c81a",
+    "SClass": "杂草",
+    "SCName": "远志目"
+  },
+  {
+    "species_TP_GUID": "643a8a6f-c8b6-4301-956b-fe73e7a9bd6a",
+    "ParentSsName": "Polygalales",
+    "SLevel": "科",
+    "SSNameSci": "Krameriaceae",
+    "TP_GUID": "58c0e68b-d8c8-475f-886c-2098032c05ab",
+    "SClass": "杂草",
+    "SCName": "刺球果科"
+  },
+  {
+    "species_TP_GUID": "643a8a6f-c8b6-4301-956b-fe73e7a9bd6a",
+    "ParentSsName": "Krameriaceae",
+    "SLevel": "属",
+    "SSNameSci": "Krameria",
+    "TP_GUID": "643a8a6f-c8b6-4301-956b-fe73e7a9bd6a",
+    "SClass": "植物",
+    "SCName": "刺球果"
+  },
+  {
+    "species_TP_GUID": "4d988bb6-a3a5-4d5d-880f-8bd093adf71c",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "4d988bb6-a3a5-4d5d-880f-8bd093adf71c",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "4d988bb6-a3a5-4d5d-880f-8bd093adf71c",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "4d988bb6-a3a5-4d5d-880f-8bd093adf71c",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Asterales",
+    "TP_GUID": "c4fe3024-8bcd-4470-b82f-63a7d2ce2ab2",
+    "SClass": "杂草",
+    "SCName": "菊目"
+  },
+  {
+    "species_TP_GUID": "4d988bb6-a3a5-4d5d-880f-8bd093adf71c",
+    "ParentSsName": "Asterales",
+    "SLevel": "科",
+    "SSNameSci": "Asteraceae",
+    "TP_GUID": "5658ba6b-faeb-4e04-917d-6e79322ab8b1",
+    "SClass": "杂草",
+    "SCName": "菊科"
+  },
+  {
+    "species_TP_GUID": "4d988bb6-a3a5-4d5d-880f-8bd093adf71c",
+    "ParentSsName": "Asteraceae",
+    "SLevel": "属",
+    "SSNameSci": "Helianthus",
+    "TP_GUID": "fde0e6dc-af18-4670-90d7-0db57ad919f5",
+    "SClass": "杂草",
+    "SCName": "向日葵属"
+  },
+  {
+    "species_TP_GUID": "4d988bb6-a3a5-4d5d-880f-8bd093adf71c",
+    "ParentSsName": "Helianthus",
+    "SLevel": "种",
+    "SSNameSci": "Helianthus maximiliani",
+    "TP_GUID": "4d988bb6-a3a5-4d5d-880f-8bd093adf71c",
+    "SClass": "植物",
+    "SCName": "糙叶向日葵"
+  },
+  {
+    "species_TP_GUID": "a9fc50f4-9e64-4423-bd9f-563065dec9c4",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "a9fc50f4-9e64-4423-bd9f-563065dec9c4",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "a9fc50f4-9e64-4423-bd9f-563065dec9c4",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "a9fc50f4-9e64-4423-bd9f-563065dec9c4",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Asterales",
+    "TP_GUID": "c4fe3024-8bcd-4470-b82f-63a7d2ce2ab2",
+    "SClass": "杂草",
+    "SCName": "菊目"
+  },
+  {
+    "species_TP_GUID": "a9fc50f4-9e64-4423-bd9f-563065dec9c4",
+    "ParentSsName": "Asterales",
+    "SLevel": "科",
+    "SSNameSci": "Asteraceae",
+    "TP_GUID": "5658ba6b-faeb-4e04-917d-6e79322ab8b1",
+    "SClass": "杂草",
+    "SCName": "菊科"
+  },
+  {
+    "species_TP_GUID": "a9fc50f4-9e64-4423-bd9f-563065dec9c4",
+    "ParentSsName": "Asteraceae",
+    "SLevel": "属",
+    "SSNameSci": "Gutierrezia",
+    "TP_GUID": "a9fc50f4-9e64-4423-bd9f-563065dec9c4",
+    "SClass": "植物",
+    "SCName": "蛇黄花属"
+  },
+  {
+    "species_TP_GUID": "6fa705f4-e2c3-4ba9-8d71-2c1392b40585",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "6fa705f4-e2c3-4ba9-8d71-2c1392b40585",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "6fa705f4-e2c3-4ba9-8d71-2c1392b40585",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "6fa705f4-e2c3-4ba9-8d71-2c1392b40585",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Asterales",
+    "TP_GUID": "c4fe3024-8bcd-4470-b82f-63a7d2ce2ab2",
+    "SClass": "杂草",
+    "SCName": "菊目"
+  },
+  {
+    "species_TP_GUID": "6fa705f4-e2c3-4ba9-8d71-2c1392b40585",
+    "ParentSsName": "Asterales",
+    "SLevel": "科",
+    "SSNameSci": "Asteraceae",
+    "TP_GUID": "5658ba6b-faeb-4e04-917d-6e79322ab8b1",
+    "SClass": "杂草",
+    "SCName": "菊科"
+  },
+  {
+    "species_TP_GUID": "6fa705f4-e2c3-4ba9-8d71-2c1392b40585",
+    "ParentSsName": "Asteraceae",
+    "SLevel": "属",
+    "SSNameSci": "Franseria",
+    "TP_GUID": "6fa705f4-e2c3-4ba9-8d71-2c1392b40585",
+    "SClass": "杂草",
+    "SCName": "木豚草属"
+  },
+  {
+    "species_TP_GUID": "d709590c-c8d8-42fe-a170-5789975ab358",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "d709590c-c8d8-42fe-a170-5789975ab358",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "d709590c-c8d8-42fe-a170-5789975ab358",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "d709590c-c8d8-42fe-a170-5789975ab358",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Rhamnales",
+    "TP_GUID": "1f0a9b31-dab5-448b-81c8-494ff97b2e67",
+    "SClass": "杂草",
+    "SCName": "鼠李目"
+  },
+  {
+    "species_TP_GUID": "d709590c-c8d8-42fe-a170-5789975ab358",
+    "ParentSsName": "Rhamnales",
+    "SLevel": "科",
+    "SSNameSci": "Rhamnaceae",
+    "TP_GUID": "ff296f30-74e1-4905-b49c-c2600f36f9d6",
+    "SClass": "杂草",
+    "SCName": "鼠李科"
+  },
+  {
+    "species_TP_GUID": "d709590c-c8d8-42fe-a170-5789975ab358",
+    "ParentSsName": "Rhamnaceae",
+    "SLevel": "属",
+    "SSNameSci": "Frangula",
+    "TP_GUID": "d709590c-c8d8-42fe-a170-5789975ab358",
+    "SClass": "植物",
+    "SCName": "裸芽鼠李属"
+  },
+  {
+    "species_TP_GUID": "0b928893-3459-49ba-9b8c-d71a32cebba1",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "0b928893-3459-49ba-9b8c-d71a32cebba1",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "0b928893-3459-49ba-9b8c-d71a32cebba1",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "0b928893-3459-49ba-9b8c-d71a32cebba1",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Fabales",
+    "TP_GUID": "f5b5a62a-36bf-42cf-975a-abd53f685f7c",
+    "SClass": "杂草",
+    "SCName": "豆目"
+  },
+  {
+    "species_TP_GUID": "0b928893-3459-49ba-9b8c-d71a32cebba1",
+    "ParentSsName": "Fabales",
+    "SLevel": "科",
+    "SSNameSci": "Fabaceae",
+    "TP_GUID": "52c1dc5a-205c-407d-8b61-7abe83baaeb4",
+    "SClass": "杂草",
+    "SCName": "豆科"
+  },
+  {
+    "species_TP_GUID": "0b928893-3459-49ba-9b8c-d71a32cebba1",
+    "ParentSsName": "Fabaceae",
+    "SLevel": "属",
+    "SSNameSci": "Baptisia",
+    "TP_GUID": "0b928893-3459-49ba-9b8c-d71a32cebba1",
+    "SClass": "植物",
+    "SCName": "赝靛属"
+  },
+  {
+    "species_TP_GUID": "1e848ca5-289c-4be1-9dc5-d2fbd259db07",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "1e848ca5-289c-4be1-9dc5-d2fbd259db07",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "1e848ca5-289c-4be1-9dc5-d2fbd259db07",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Magnoliopsida",
+    "TP_GUID": "78453230-2d97-46fc-8407-0067052d9bf8",
+    "SClass": "杂草",
+    "SCName": "木兰纲"
+  },
+  {
+    "species_TP_GUID": "1e848ca5-289c-4be1-9dc5-d2fbd259db07",
+    "ParentSsName": "Magnoliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Caryophyllales",
+    "TP_GUID": "5f164c09-c211-416e-ae86-0cec4a17c6e7",
+    "SClass": "杂草",
+    "SCName": "石竹目"
+  },
+  {
+    "species_TP_GUID": "1e848ca5-289c-4be1-9dc5-d2fbd259db07",
+    "ParentSsName": "Caryophyllales",
+    "SLevel": "科",
+    "SSNameSci": "Nyctaginaceae",
+    "TP_GUID": "0e361e86-7cee-4134-96ac-bf0492738cdc",
+    "SClass": "杂草",
+    "SCName": "紫茉莉科"
+  },
+  {
+    "species_TP_GUID": "1e848ca5-289c-4be1-9dc5-d2fbd259db07",
+    "ParentSsName": "Nyctaginaceae",
+    "SLevel": "属",
+    "SSNameSci": "Allionia",
+    "TP_GUID": "1e848ca5-289c-4be1-9dc5-d2fbd259db07",
+    "SClass": "植物",
+    "SCName": "粉风车属"
+  },
+  {
+    "species_TP_GUID": "d7815b53-c892-4409-9465-29ae2f0e7703",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "d7815b53-c892-4409-9465-29ae2f0e7703",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Angiospermae",
+    "TP_GUID": "d1774ef0-036a-427b-b8de-0f2754b3ea9d",
+    "SClass": "植物",
+    "SCName": "被子植物门"
+  },
+  {
+    "species_TP_GUID": "d7815b53-c892-4409-9465-29ae2f0e7703",
+    "ParentSsName": "Angiospermae",
+    "SLevel": "纲",
+    "SSNameSci": "Dicotyledonae",
+    "TP_GUID": "e7e5aa37-f84a-40b3-89f0-b84c55181d86",
+    "SClass": "杂草",
+    "SCName": "双子叶植物纲"
+  },
+  {
+    "species_TP_GUID": "d7815b53-c892-4409-9465-29ae2f0e7703",
+    "ParentSsName": "Dicotyledonae",
+    "SLevel": "目",
+    "SSNameSci": "Solanales",
+    "TP_GUID": "04a65bd3-30e3-4277-b7c2-a13222d26f66",
+    "SClass": "杂草",
+    "SCName": "茄目"
+  },
+  {
+    "species_TP_GUID": "d7815b53-c892-4409-9465-29ae2f0e7703",
+    "ParentSsName": "Solanales",
+    "SLevel": "科",
+    "SSNameSci": "Solanaceae",
+    "TP_GUID": "3b21b3a8-15b0-4870-965f-39984ff119ff",
+    "SClass": "杂草",
+    "SCName": "茄科"
+  },
+  {
+    "species_TP_GUID": "d7815b53-c892-4409-9465-29ae2f0e7703",
+    "ParentSsName": "Solanaceae",
+    "SLevel": "属",
+    "SSNameSci": "Solanum",
+    "TP_GUID": "c633de4c-6a9b-4085-a115-1d3130791125",
+    "SClass": "杂草",
+    "SCName": "茄属"
+  },
+  {
+    "species_TP_GUID": "d7815b53-c892-4409-9465-29ae2f0e7703",
+    "ParentSsName": "Solanum",
+    "SLevel": "种",
+    "SSNameSci": "Solanum torvum",
+    "TP_GUID": "d7815b53-c892-4409-9465-29ae2f0e7703",
+    "SClass": "植物",
+    "SCName": "刺茄"
+  },
+  {
+    "species_TP_GUID": "f5b56acb-e6c0-4911-9e90-8d8340dc4884",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "f5b56acb-e6c0-4911-9e90-8d8340dc4884",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "f5b56acb-e6c0-4911-9e90-8d8340dc4884",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Liliopsida",
+    "TP_GUID": "eb076b52-f082-491b-93ea-0cc1a4d04406",
+    "SClass": "杂草",
+    "SCName": "百合纲"
+  },
+  {
+    "species_TP_GUID": "f5b56acb-e6c0-4911-9e90-8d8340dc4884",
+    "ParentSsName": "Liliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Poales",
+    "TP_GUID": "efbeec96-9536-4a31-96fa-3b849d21ee9c",
+    "SClass": "杂草",
+    "SCName": "禾本目"
+  },
+  {
+    "species_TP_GUID": "f5b56acb-e6c0-4911-9e90-8d8340dc4884",
+    "ParentSsName": "Poales",
+    "SLevel": "科",
+    "SSNameSci": "Poaceae",
+    "TP_GUID": "fab52154-3167-4ddb-b5b7-db8865563cd3",
+    "SClass": "杂草",
+    "SCName": "禾本科"
+  },
+  {
+    "species_TP_GUID": "f5b56acb-e6c0-4911-9e90-8d8340dc4884",
+    "ParentSsName": "Poaceae",
+    "SLevel": "属",
+    "SSNameSci": "Digitaria",
+    "TP_GUID": "40ed6d82-2bdf-4be3-baf7-98fbeba57fab",
+    "SClass": "植物",
+    "SCName": "马唐属"
+  },
+  {
+    "species_TP_GUID": "f5b56acb-e6c0-4911-9e90-8d8340dc4884",
+    "ParentSsName": "Digitaria",
+    "SLevel": "种",
+    "SSNameSci": "Digitaria abyssinica",
+    "TP_GUID": "f5b56acb-e6c0-4911-9e90-8d8340dc4884",
+    "SClass": "杂草",
+    "SCName": "(马唐属)"
+  },
+  {
+    "species_TP_GUID": "40ed6d82-2bdf-4be3-baf7-98fbeba57fab",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Plantae",
+    "TP_GUID": "4a82f625-c7c8-48c5-a2cc-7940310a638f",
+    "SClass": "植物",
+    "SCName": "植物界"
+  },
+  {
+    "species_TP_GUID": "40ed6d82-2bdf-4be3-baf7-98fbeba57fab",
+    "ParentSsName": "Plantae",
+    "SLevel": "门",
+    "SSNameSci": "Tracheophyta",
+    "TP_GUID": "29d4a7f4-836f-4813-92b8-88580cd7a461",
+    "SClass": "杂草",
+    "SCName": "维管植物门"
+  },
+  {
+    "species_TP_GUID": "40ed6d82-2bdf-4be3-baf7-98fbeba57fab",
+    "ParentSsName": "Tracheophyta",
+    "SLevel": "纲",
+    "SSNameSci": "Liliopsida",
+    "TP_GUID": "eb076b52-f082-491b-93ea-0cc1a4d04406",
+    "SClass": "杂草",
+    "SCName": "百合纲"
+  },
+  {
+    "species_TP_GUID": "40ed6d82-2bdf-4be3-baf7-98fbeba57fab",
+    "ParentSsName": "Liliopsida",
+    "SLevel": "目",
+    "SSNameSci": "Poales",
+    "TP_GUID": "efbeec96-9536-4a31-96fa-3b849d21ee9c",
+    "SClass": "杂草",
+    "SCName": "禾本目"
+  },
+  {
+    "species_TP_GUID": "40ed6d82-2bdf-4be3-baf7-98fbeba57fab",
+    "ParentSsName": "Poales",
+    "SLevel": "科",
+    "SSNameSci": "Poaceae",
+    "TP_GUID": "fab52154-3167-4ddb-b5b7-db8865563cd3",
+    "SClass": "杂草",
+    "SCName": "禾本科"
+  },
+  {
+    "species_TP_GUID": "40ed6d82-2bdf-4be3-baf7-98fbeba57fab",
+    "ParentSsName": "Poaceae",
+    "SLevel": "属",
+    "SSNameSci": "Digitaria",
+    "TP_GUID": "40ed6d82-2bdf-4be3-baf7-98fbeba57fab",
+    "SClass": "植物",
+    "SCName": "马唐属"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus zea",
+    "TP_GUID": "f6660b78-982d-4599-9c98-24e19fa9a0ef",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus vincetoxici",
+    "TP_GUID": "4628334d-c0ed-418d-83e4-4e936d36eb57",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Rhabdoviridae",
+    "SLevel": "科",
+    "SSNameSci": "Betarhabdovirinae",
+    "TP_GUID": "3ba95826-2050-4ad5-a439-fbe46f7a8549",
+    "SClass": "病毒",
+    "SCName": "β-弹状病毒亚科"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Betarhabdovirinae",
+    "SLevel": "属",
+    "SSNameSci": "Varicosavirus",
+    "TP_GUID": "5884aed8-359d-4366-be3b-77b3ebdbfc7a",
+    "SClass": "病毒",
+    "SCName": "巨脉病毒属"
+  },
+  {
+    "species_TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "ParentSsName": "Varicosavirus",
+    "SLevel": "种",
+    "SSNameSci": "Varicosavirus tritici",
+    "TP_GUID": "52f74bfc-6732-46d3-a658-0352a5fd8f4e",
+    "SClass": "病毒",
+    "SCName": null
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "",
+    "SLevel": "界",
+    "SSNameSci": "Riboviria",
+    "TP_GUID": "f5bed14c-f879-41f8-ade8-f3c4d51e6f7b",
+    "SClass": "病毒",
+    "SCName": "RNA病毒域"
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Riboviria",
+    "SLevel": "界",
+    "SSNameSci": "Orthornavirae",
+    "TP_GUID": "9a6d8176-3b84-4386-b48f-f9ad7726d40b",
+    "SClass": "多种动物共患病",
+    "SCName": "正核糖病毒界"
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Orthornavirae",
+    "SLevel": "门",
+    "SSNameSci": "Negarnaviricota",
+    "TP_GUID": "312ec124-10b2-42e1-8d57-ed854706542b",
+    "SClass": "病毒",
+    "SCName": "负链RNA病毒门"
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Negarnaviricota",
+    "SLevel": "门",
+    "SSNameSci": "Haploviricotina",
+    "TP_GUID": "c964dca9-15a4-4566-a942-1d0d27aa8005",
+    "SClass": "病毒",
+    "SCName": "简单病毒亚门"
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Haploviricotina",
+    "SLevel": "纲",
+    "SSNameSci": "Monjiviricetes",
+    "TP_GUID": "0afad785-6a08-45bf-b907-36d83951634f",
+    "SClass": "病毒",
+    "SCName": "单分子负链荆楚病毒纲"
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Monjiviricetes",
+    "SLevel": "目",
+    "SSNameSci": "Mononegavirales",
+    "TP_GUID": "4a620c53-d4d4-41d6-8206-97977593baca",
+    "SClass": "病毒",
+    "SCName": "单分子负链RNA病毒目"
+  },
+  {
+    "species_TP_GUID": "65e26285-82c9-498d-acf4-f1c238d9d838",
+    "ParentSsName": "Mononegavirales",
+    "SLevel": "科",
+    "SSNameSci": "Rhabdoviridae",
+    "TP_GUID": "f006ad23-4ea7-4f74-8779-31db1cb3ef8f",
+    "SClass": "病毒",
+    "SCName": "弹状病毒科"
+  }
+]

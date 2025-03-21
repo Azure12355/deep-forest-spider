@@ -241,3 +241,23 @@ class SpeciesHostItem(scrapy.Item):
     HOST_NAME_CN = scrapy.Field()  # 寄主中文名称，寄主的中文名
     HostType = scrapy.Field()      # 寄主类型，描述寄主与物种的关系（如自然寄主、为害植物等）
     Icodes = scrapy.Field()        # 关联的文献引用列表，嵌套的IcodeItem列表
+
+
+# 物种的父级分类信息
+
+
+class SpeciesParentItem(scrapy.Item):
+    # 标识字段：原始物种的 TP_GUID，用于关联当前父级分类属于哪个物种
+    species_TP_GUID = scrapy.Field()
+    # 父级分类的名称（科学名），可能为 null，表示当前分类的上级
+    ParentSsName = scrapy.Field()
+    # 分类级别，例如 "界"、"门"、"纲"、"目"、"科"、"属"
+    SLevel = scrapy.Field()
+    # 当前分类的科学名，例如 "Animalia"、"Nematoda"
+    SSNameSci = scrapy.Field()
+    # 当前分类的唯一标识符 TP_GUID
+    TP_GUID = scrapy.Field()
+    # 分类的类别，例如 "线虫"、"真菌"，可能为 null
+    SClass = scrapy.Field()
+    # 分类的中文名，例如 "动物界"、"线虫动物门"
+    SCName = scrapy.Field()
