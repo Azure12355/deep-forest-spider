@@ -261,3 +261,91 @@ class SpeciesParentItem(scrapy.Item):
     SClass = scrapy.Field()
     # 分类的中文名，例如 "动物界"、"线虫动物门"
     SCName = scrapy.Field()
+
+# 物种关联信息
+
+class CankaoItem(scrapy.Item):
+    # 参考文献的唯一标识符
+    Icode = scrapy.Field()
+    # 参考文献的标题
+    Title = scrapy.Field()
+    # 来源出版物的标题
+    SourceTitle = scrapy.Field()
+    # 负责发布参考文献的作者
+    IssueAuthor = scrapy.Field()
+    # 作者的显示格式
+    AuthorDisplay = scrapy.Field()
+    # 主类型分类（例如，植物检疫）
+    ITypes1 = scrapy.Field()
+    # 参考文献的通用类型（例如，参考文献）
+    ITypes = scrapy.Field()
+    # 次级类型分类（例如，网络资源，文章）
+    ITypes2 = scrapy.Field()
+    # 与参考文献相关的关键字
+    KeyWord = scrapy.Field()
+    # 国家/地区代码的名称
+    CCname = scrapy.Field()
+    # 参考文献的发布时间
+    PubTime = scrapy.Field()
+    # 参考文献的出版商
+    Publisher = scrapy.Field()
+    # 来源或派生的 URL/链接
+    Derivation = scrapy.Field()
+    # 表示参考文献类型的代码
+    TypeCode = scrapy.Field()
+    # 执行或生效日期
+    ExecuteDate = scrapy.Field()
+    # 额外的参考信息
+    Reference = scrapy.Field()
+    # 参考文献的摘要或描述
+    AbstractDesc = scrapy.Field()
+    # TP 系统中的作者
+    TP_AUTHOR = scrapy.Field()
+    # TP 系统中的创建时间戳
+    TP_CREATED = scrapy.Field()
+    # TP 系统中的编辑者
+    TP_EDITOR = scrapy.Field()
+    # TP 系统中的修改时间戳
+    TP_MODIFIED = scrapy.Field()
+    # 负责发布的人员
+    PublishPerson = scrapy.Field()
+    # 发布时间
+    PublishTime = scrapy.Field()
+    # 参考文献的状态（例如，已确认）
+    Status = scrapy.Field()
+
+class PestRelationInfoItem(scrapy.Item):
+    # 唯一行标识符
+    rowid = scrapy.Field()
+    # TP 系统的全局唯一标识符
+    TP_GUID = scrapy.Field()
+    # 物种的全局唯一标识符（请求中的 SC_GUID）
+    SC_GUID = scrapy.Field()
+    # 物种的科学名称
+    SSNameSci = scrapy.Field()
+    # 寄主范围特征
+    PBCharHostRange = scrapy.Field()
+    # 潜在生态影响的描述
+    PotentialEcoDesc = scrapy.Field()
+    # 物种关系的通用描述
+    Descrip = scrapy.Field()
+    # 管理相关信息
+    ManagementInfo = scrapy.Field()
+    # 额外的备注或注释
+    Remark = scrapy.Field()
+    # 参考代码的标识符
+    ICodeID = scrapy.Field()
+    # 参考代码的名称
+    ICodeName = scrapy.Field()
+    # 页码（如适用）
+    Page = scrapy.Field()
+    # TP 系统中的作者
+    TP_AUTHOR = scrapy.Field()
+    # TP 系统中的创建时间戳
+    TP_CREATED = scrapy.Field()
+    # TP 系统中的编辑者
+    TP_EDITOR = scrapy.Field()
+    # TP 系统中的修改时间戳
+    TP_MODIFIED = scrapy.Field()
+    # 嵌套的参考信息
+    cankao = scrapy.Field(serializer=CankaoItem)

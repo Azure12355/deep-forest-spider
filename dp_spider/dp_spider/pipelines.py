@@ -5,6 +5,8 @@ from pathlib import Path
 from itemadapter import ItemAdapter
 from scrapy.utils import spider
 
+from .items import CankaoItem
+
 
 class JsonBatchPipeline:
     def __init__(self):
@@ -124,7 +126,7 @@ class SpeciesBasicInfoPipeline:
         self.file_count = 0  # 文件编号
         self.item_count = 0  # 当前记录数
         self.max_items_per_file = 10  # 每个文件最大记录数
-        self.output_dir = 'data/species_basicinfo'  # 输出目录
+        self.output_dir = 'data/species_relationinfo'  # 输出目录
         if not os.path.exists(self.output_dir):
             os.makedirs(self.output_dir)
 
@@ -156,7 +158,7 @@ class SpeciesBasicInfoPipeline:
 
     def save_to_json(self):
         """将Item列表保存到JSON文件"""
-        filename = f'species_basicinfo_batch_{self.file_count}.json'
+        filename = f'species_relationinfo_batch_{self.file_count}.json'
         filepath = os.path.join(self.output_dir, filename)
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(self.items, f, ensure_ascii=False, indent=4)
@@ -240,3 +242,41 @@ class SpeciesParentPipeline:
         self.items = []  # 清空列表
         self.batch_num += 1  # 增加批次编号
 
+
+class PestRelationPipeline:
+    def __init__(self):
+        self.items = []
+        self.file_count = 1
+        self.item_count = 0
+        self.max_items_per_file = 5000
+        self.output_dir = 'data/pest_relation'
+        if not os.path.exists(self.output_dir):
+            os.makedirs(self.output_dir)
+
+    def process_item(self, item, spider):
+        """处理每个项目，并在达到 5000 个项目时保存到文件。"""
+        # 将 item 转换为字典，并处理嵌套的 cankao 字段
+        item_dict = dict(item)
+        if 'cankao' in item_dict and item_dict['cankao'] is not None:
+            item_dict['cankao'] = dict(item_dict['cankao'])  # 将 CankaoItem 转换为普通字典
+
+        self.items.append(item_dict)
+        self.item_count += 1
+        if self.item_count >= self.max_items_per_file:
+            self.save_to_file()
+            self.items = []
+            self.item_count = 0
+            self.file_count += 1
+        return item
+
+    def close_spider(self, spider):
+        """在爬虫关闭时保存剩余的项目。"""
+        if self.items:
+            self.save_to_file()
+
+    def save_to_file(self):
+        """将收集的项目保存到 JSON 文件。"""
+        filename = f'pest_relation_batch_{self.file_count}.json'
+        filepath = os.path.join(self.output_dir, filename)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(self.items, f, ensure_ascii=False, indent=4)
