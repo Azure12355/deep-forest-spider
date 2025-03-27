@@ -376,3 +376,51 @@ class IssueCodeDetailPipeline:
             json.dump(self.items, f, ensure_ascii=False, indent=4)  # 保存为格式化的JSON
         self.items = []  # 清空列表
         self.batch_num += 1  # 增加批次编号
+
+
+import json
+import os
+
+
+class FilePipeline:
+    def __init__(self):
+        """
+        初始化 Pipeline，设置批次大小和文件路径
+        """
+        self.items = []  # 存储 Item 的列表
+        self.batch_size = 200  # 每个 JSON 文件保存的记录数
+        self.batch_number = 1  # 当前批次编号
+        # 输出文件路径，相对于项目根目录
+        self.file_path = os.path.join('data', 'file_metadata_list', 'file_metadata_batch_{}.json')
+
+    def process_item(self, item, spider):
+        """
+        处理每个 Item，收集到列表中并在达到批次大小时保存
+        """
+        self.items.append(dict(item))  # 将 Item 转换为字典并添加到列表
+        if len(self.items) >= self.batch_size:
+            self.save_batch()
+        return item  # 返回 Item 以支持后续 Pipeline
+
+    def close_spider(self, spider):
+        """
+        爬虫关闭时保存剩余的 Item
+        """
+        if self.items:  # 如果还有未保存的 Item
+            self.save_batch()
+
+    def save_batch(self):
+        """
+        将当前收集的 Item 保存为 JSON 文件
+        """
+        file_name = self.file_path.format(self.batch_number)
+        # 确保输出目录存在
+        os.makedirs(os.path.dirname(file_name), exist_ok=True)
+
+        # 写入 JSON 文件
+        with open(file_name, 'w', encoding='utf-8') as f:
+            json.dump(self.items, f, ensure_ascii=False, indent=4)
+
+        # 清空列表并递增批次编号
+        self.items = []
+        self.batch_number += 1
