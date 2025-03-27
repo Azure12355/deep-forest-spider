@@ -349,3 +349,14 @@ class PestRelationInfoItem(scrapy.Item):
     TP_MODIFIED = scrapy.Field()
     # 嵌套的参考信息
     cankao = scrapy.Field(serializer=CankaoItem)
+
+
+# 定义主Item，用于存储害虫寄主部位关联信息
+class PestHostPartItem(scrapy.Item):
+    species_id = scrapy.Field()  # 物种ID，用于标识数据所属的物种，例如 "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1"
+    rowid = scrapy.Field()  # 行的唯一标识符，例如 1
+    PlantParts = scrapy.Field()  # 植物受害部位，例如 "种子" 或 "种苗;组培苗"
+    Peststage = scrapy.Field()  # 害虫的生命周期阶段，例如 "卵/幼虫(线虫)/成虫(线虫)" 或空字符串
+    VisibilityType = scrapy.Field()  # 可见性类型，例如 "光学显微镜可见" 或空字符串
+    SpreadingWay = scrapy.Field()  # 传播方式，例如空字符串（数据样例中未提供具体值）
+    Icodes = scrapy.Field()  # Icodes列表，包含多个ICodeItem对象，表示相关文献或来源
