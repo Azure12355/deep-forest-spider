@@ -21,7 +21,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 5000  # 根据服务器承受能力调整
+CONCURRENT_REQUESTS = 500  # 根据服务器承受能力调整
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -73,7 +73,8 @@ ITEM_PIPELINES = {
     # 'dp_spider.pipelines.SpeciesHostPipeline': 300, # 请求物种寄主信息
     # 'dp_spider.pipelines.SpeciesParentPipeline': 300, # 请求物种父级分类信息
     # 'dp_spider.pipelines.PestRelationPipeline': 300,
-    'dp_spider.pipelines.PestHostPartPipeline': 300,
+    # 'dp_spider.pipelines.PestHostPartPipeline': 300,
+    'dp_spider.pipelines.CmDiffuseMediumPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

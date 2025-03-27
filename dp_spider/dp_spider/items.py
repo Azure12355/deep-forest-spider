@@ -360,3 +360,26 @@ class PestHostPartItem(scrapy.Item):
     VisibilityType = scrapy.Field()  # 可见性类型，例如 "光学显微镜可见" 或空字符串
     SpreadingWay = scrapy.Field()  # 传播方式，例如空字符串（数据样例中未提供具体值）
     Icodes = scrapy.Field()  # Icodes列表，包含多个ICodeItem对象，表示相关文献或来源
+
+# 定义CmDiffuseMediumItem，用于存储扩散媒介关联信息
+class CmDiffuseMediumItem(scrapy.Item):
+    species_id = scrapy.Field()  # 物种ID，用于标识数据所属的物种，例如 "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1"
+    rowid = scrapy.Field()  # 行的唯一标识符，例如 1
+    TP_GUID = scrapy.Field()  # 扩散媒介的唯一标识符，例如 "3e1af488-473c-4491-b90c-eaa539bf3dd4"
+    SC_GUID = scrapy.Field()  # 物种全局唯一标识，与species_id相同，例如 "ec44406f-b6c9-41a3-ab4d-5d1eb9dd0b6e"
+    SSNameSci = scrapy.Field()  # 物种的学名，例如 "Bursaphelenchus xylophilus"
+    SpeciesType = scrapy.Field()  # 物种类型，例如 "有害生物"
+    OB_GUID = scrapy.Field()  # 媒介的唯一标识符，例如 "91819c6c-5d94-4a55-92b6-41e303b71e9b"
+    OB_SSNameSci = scrapy.Field()  # 媒介的学名，例如 "Monochamus"
+    Descrip = scrapy.Field()  # 描述信息，详细说明物种与媒介的关系，例如松材线虫与其媒介的关系描述
+    MediumType = scrapy.Field()  # 媒介类型，例如 "媒介"
+    ICodeID = scrapy.Field()  # ICode的唯一标识符，例如 "15245837"
+    ICodeName = scrapy.Field()  # ICode的名称，例如 "CPC2022"
+    Page = scrapy.Field()  # 页码，数据样例中为null
+    TP_AUTHOR = scrapy.Field()  # 作者，数据样例中为null
+    TP_CREATED = scrapy.Field()  # 创建时间，例如 "2022-11-04 14:11:46.000"
+    TP_EDITOR = scrapy.Field()  # 编辑者，例如 "孙珮珊"
+    TP_MODIFIED = scrapy.Field()  # 修改时间，例如 "2022-11-07 15:42:20.000"
+    Tmp_GUID = scrapy.Field()  # 临时GUID，数据样例中为null
+    Tmp_SSNameSci = scrapy.Field()  # 临时物种学名，数据样例中为null
+    NamedYear = scrapy.Field()  # 命名年份，例如 "Dejean, 1821"

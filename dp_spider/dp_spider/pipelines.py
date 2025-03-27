@@ -315,3 +315,34 @@ class PestHostPartPipeline:
             json.dump(self.items, f, ensure_ascii=False, indent=4)  # 保存为格式化的JSON
         self.items = []  # 清空列表
         self.batch_num += 1  # 增加批次编号
+
+
+class CmDiffuseMediumPipeline:
+    def __init__(self):
+        self.items = []  # 存储爬取的Item
+        self.batch_size = 200  # 每批保存的记录数
+        self.batch_num = 1  # 批次编号
+        self.output_dir = os.path.join('data', 'cm_diffuse_medium_list')  # 输出目录
+        if not os.path.exists(self.output_dir):
+            os.makedirs(self.output_dir)  # 创建目录如果不存在
+
+    def process_item(self, item, spider):
+        """处理每个Item，转换为字典并累积到列表中"""
+        self.items.append(dict(item))  # 将Item转换为字典并添加
+        if len(self.items) >= self.batch_size:
+            self.save_batch()  # 达到5000条时保存
+        return item
+
+    def close_spider(self, spider):
+        """爬虫关闭时保存剩余数据"""
+        if self.items:
+            self.save_batch()
+
+    def save_batch(self):
+        """保存当前批次数据到JSON文件"""
+        filename = f'cm_diffuse_medium_batch_{self.batch_num}.json'
+        filepath = os.path.join(self.output_dir, filename)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(self.items, f, ensure_ascii=False, indent=4)  # 保存为格式化的JSON
+        self.items = []  # 清空列表
+        self.batch_num += 1  # 增加批次编号
