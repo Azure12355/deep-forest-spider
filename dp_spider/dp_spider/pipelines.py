@@ -125,8 +125,8 @@ class SpeciesBasicInfoPipeline:
         self.items = []  # 存储Item的列表
         self.file_count = 0  # 文件编号
         self.item_count = 0  # 当前记录数
-        self.max_items_per_file = 10  # 每个文件最大记录数
-        self.output_dir = 'data/species_relationinfo'  # 输出目录
+        self.max_items_per_file = 5000  # 每个文件最大记录数
+        self.output_dir = 'data/species_basicinfo'  # 输出目录
         if not os.path.exists(self.output_dir):
             os.makedirs(self.output_dir)
 

@@ -112,7 +112,7 @@ class SpeciesBasicInfoSpider(scrapy.Spider):
         pagenum = int(paging.get('pagenum', 1))
         totalpage = int(paging.get('totalpage', 0))
         if pagenum < totalpage:
-            next_pagenum = pagenum + 1
+            next_pagenum = pagenum
             form_data = {
                 'SC_GUID': response.meta['species_id'],
                 'needCk': 'true',
