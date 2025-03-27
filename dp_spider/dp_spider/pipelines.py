@@ -350,7 +350,7 @@ class CmDiffuseMediumPipeline:
 class IssueCodeDetailPipeline:
     def __init__(self):
         self.items = []  # 存储爬取的Item
-        self.batch_size = 100  # 每批保存的记录数
+        self.batch_size = 500  # 每批保存的记录数
         self.batch_num = 1  # 批次编号
         self.output_dir = os.path.join('data', 'issue_code_detail_list')  # 输出目录
         if not os.path.exists(self.output_dir):

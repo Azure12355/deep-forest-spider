@@ -1,6 +1,7 @@
 import scrapy
 import json
 import os
+import csv
 from ..items import IssueCodeDetailItem
 
 class IssueCodeDetailSpider(scrapy.Spider):
@@ -18,29 +19,32 @@ class IssueCodeDetailSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(IssueCodeDetailSpider, self).__init__(*args, **kwargs)
-        self.species_ids = self.load_species_ids()  # 初始化时加载所有物种ID
+        self.icodes = self.load_icodes()  # 初始化时加载icode列表
 
-    def load_species_ids(self):
-        """读取species_id文件夹下的所有JSON文件，获取物种ID列表"""
-        species_ids = []
-        species_id_dir = os.path.join('data', 'species_id')  # 物种ID目录
-        for filename in os.listdir(species_id_dir):
-            if filename.endswith('.json'):
-                with open(os.path.join(species_id_dir, filename), 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    species_ids.extend(data)  # 将每个文件中的ID添加到列表
-        return species_ids
+    def load_icodes(self):
+        """从cleaned_data/reference_relation.csv文件中读取icode列表"""
+        icodes = []
+        csv_file = os.path.join('cleaned_data', 'reference_relation.csv')
+        try:
+            with open(csv_file, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    icode = row['icode'].strip()  # 去除首尾空白
+                    if icode:  # 确保不添加空值
+                        icodes.append(icode)
+        except FileNotFoundError:
+            self.logger.error(f"文件 {csv_file} 不存在")
+        except Exception as e:
+            self.logger.error(f"读取文件 {csv_file} 时出错: {e}")
+        return icodes
 
     def start_requests(self):
-        """为每个物种ID发起GET请求"""
-        for species_id in self.species_ids:
-            # 假设issueCode与species_id相关联，此处简化为直接使用species_id，实际需根据接口调整
-            # todo 这里后续要改为真实的issue_code而不是species_id
-            issue_code = species_id  # 假设issueCode与species_id相同
-            url = self.base_url + issue_code
+        """为每个icode发起GET请求"""
+        for icode in self.icodes:
+            url = self.base_url + icode
             yield scrapy.Request(
                 url=url,
-                meta={'species_id': species_id},  # 传递物种ID
+                meta={'icode': icode},  # 传递icode到meta
                 callback=self.parse
             )
 
@@ -50,8 +54,7 @@ class IssueCodeDetailSpider(scrapy.Spider):
 
         # 创建Item
         issue_code_detail_item = IssueCodeDetailItem()
-        issue_code_detail_item['species_id'] = response.meta['species_id']  # 添加物种ID
-        issue_code_detail_item['Icode'] = data.get('Icode')  # 参考文献ID
+        issue_code_detail_item['Icode'] = response.meta['icode']  # 使用传递的icode
         issue_code_detail_item['Title'] = data.get('Title')  # 标题
         issue_code_detail_item['SourceTitle'] = data.get('SourceTitle')  # 来源标题
         issue_code_detail_item['IssueAuthor'] = data.get('IssueAuthor')  # 作者
