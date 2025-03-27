@@ -158,7 +158,7 @@ class SpeciesBasicInfoPipeline:
 
     def save_to_json(self):
         """将Item列表保存到JSON文件"""
-        filename = f'species_relationinfo_batch_{self.file_count}.json'
+        filename = f'species_basicinfo_batch_{self.file_count}.json'
         filepath = os.path.join(self.output_dir, filename)
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(self.items, f, ensure_ascii=False, indent=4)
