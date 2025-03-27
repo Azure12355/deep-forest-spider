@@ -383,3 +383,32 @@ class CmDiffuseMediumItem(scrapy.Item):
     Tmp_GUID = scrapy.Field()  # 临时GUID，数据样例中为null
     Tmp_SSNameSci = scrapy.Field()  # 临时物种学名，数据样例中为null
     NamedYear = scrapy.Field()  # 命名年份，例如 "Dejean, 1821"
+
+
+# 定义IssueCodeDetailItem，用于存储参考文献详情信息
+class IssueCodeDetailItem(scrapy.Item):
+    species_id = scrapy.Field()  # 物种ID，用于标识数据所属的物种，例如 "b6d5fa52-013e-479c-8fd9-ef61ac8eeaa1"
+    Icode = scrapy.Field()  # 参考文献的唯一标识符，例如 16104868
+    Title = scrapy.Field()  # 文献标题，例如 "松材线虫病疫木生物除害技术研究"
+    SourceTitle = scrapy.Field()  # 文献来源标题，数据样例中为null
+    IssueAuthor = scrapy.Field()  # 文献作者，例如 "陈元生，李新远，于海萍，罗致迪"
+    AuthorDisplay = scrapy.Field()  # 作者显示信息，例如 "陈元生等，2019"
+    ITypes1 = scrapy.Field()  # 文献类型1，例如 "植物检疫"
+    ITypes = scrapy.Field()  # 文献类型，例如 "参考文献"
+    ITypes2 = scrapy.Field()  # 文献类型2，例如 "文章"
+    KeyWord = scrapy.Field()  # 关键词，例如 "松材线虫病； 松褐天牛； 花绒寄甲； 疫木隔离； 茯苓种植"
+    CCname = scrapy.Field()  # 国家名称，例如 "中国"
+    PubTime = scrapy.Field()  # 出版时间，例如 "2019-02-28 00:00:00.000"
+    Publisher = scrapy.Field()  # 出版商，数据样例中为null
+    Derivation = scrapy.Field()  # 文献来源，例如 "中国植保导刊，2019 年 第 2 期"
+    TypeCode = scrapy.Field()  # 类型代码，数据样例中为null
+    ExecuteDate = scrapy.Field()  # 执行日期，数据样例中为null
+    Reference = scrapy.Field()  # 参考文献，数据样例中为null
+    AbstractDesc = scrapy.Field()  # 摘要描述，数据样例中为null
+    TP_AUTHOR = scrapy.Field()  # 作者，数据样例中为 "张希玲"
+    TP_CREATED = scrapy.Field()  # 创建时间，例如 "2024-03-30 16:10:48.000"
+    TP_EDITOR = scrapy.Field()  # 编辑者，例如 "张希玲"
+    TP_MODIFIED = scrapy.Field()  # 修改时间，例如 "2024-03-30 16:10:48.000"
+    PublishPerson = scrapy.Field()  # 发布人，数据样例中为null
+    PublishTime = scrapy.Field()  # 发布时间，数据样例中为null
+    Status = scrapy.Field()  # 状态，例如 "已确认"

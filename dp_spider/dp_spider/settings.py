@@ -74,7 +74,8 @@ ITEM_PIPELINES = {
     # 'dp_spider.pipelines.SpeciesParentPipeline': 300, # 请求物种父级分类信息
     # 'dp_spider.pipelines.PestRelationPipeline': 300,
     # 'dp_spider.pipelines.PestHostPartPipeline': 300,
-    'dp_spider.pipelines.CmDiffuseMediumPipeline': 300,
+    # 'dp_spider.pipelines.CmDiffuseMediumPipeline': 300,
+    'dp_spider.pipelines.IssueCodeDetailPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
