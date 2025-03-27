@@ -112,7 +112,6 @@ logs/
 
 # 大文件/数据（建议用git-lfs管理）
 /data/
-*.csv
 *.h5
 *.npy
 *.pkl
