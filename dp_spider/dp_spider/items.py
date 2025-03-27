@@ -412,3 +412,13 @@ class IssueCodeDetailItem(scrapy.Item):
     PublishPerson = scrapy.Field()  # 发布人，数据样例中为null
     PublishTime = scrapy.Field()  # 发布时间，数据样例中为null
     Status = scrapy.Field()  # 状态，例如 "已确认"
+
+
+class FileMetadataItem(scrapy.Item):
+    """
+    文件元数据项，用于存储从接口返回的文件元数据信息，并与请求的 icode 关联
+    """
+    icode = scrapy.Field()  # 请求的文件标识符，字符串类型，例如 "16104868"
+    guid = scrapy.Field()   # 文件的全局唯一标识符，字符串类型，例如 "2bc748dc-3461-42b5-884d-b8732c6c0f42"
+    name = scrapy.Field()   # 文件名称，字符串类型，例如 "松材线虫病疫木生物除害技术研究_陈元生.pdf"
+    url = scrapy.Field()    # 文件的相对URL路径，字符串类型，例如 "/upload/wx/16104868/20240330161048.pdf"
