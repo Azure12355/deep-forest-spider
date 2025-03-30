@@ -1,4 +1,4 @@
-# data_transfer/species_reference_info_import.py
+# data_transfer/reference_file_import.py
 import os
 import csv
 import logging
@@ -12,14 +12,14 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S',
     handlers=[
-            logging.FileHandler('log/import_species_reference_info.log'),
-            logging.StreamHandler()
+        logging.FileHandler('log/import_reference_file.log'),
+        logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
 
 
-class SpeciesReferenceInfoImporter:
+class ReferenceFileImporter:
     def __init__(self):
         # 数据库连接配置
         self.db_config = {
@@ -64,23 +64,23 @@ class SpeciesReferenceInfoImporter:
     def check_table_exists(self):
         """检查目标表是否存在"""
         try:
-            self.cursor.execute("SHOW TABLES LIKE 'species_reference_info'")
+            self.cursor.execute("SHOW TABLES LIKE 'reference_file'")
             result = self.cursor.fetchone()
             if result:
-                logger.info("表 species_reference_info 已确认存在")
+                logger.info("表 reference_file 已确认存在")
                 return True
             else:
-                logger.error("表 species_reference_info 不存在")
+                logger.error("表 reference_file 不存在")
                 return False
         except pymysql.Error as e:
             logger.error(f"检查表是否存在时出错: {e}")
             return False
 
-    def find_csv_files(self, base_dir='../cleaned_data/issue_code_detail'):
-        """查找所有species_reference_info开头的CSV文件"""
+    def find_csv_files(self, base_dir='../cleaned_data/file_metadata'):
+        """查找所有file_metadata_batch开头的CSV文件"""
         csv_files = []
         for file in os.listdir(base_dir):
-            if file.startswith('species_reference_info') and file.endswith('.csv'):
+            if file.startswith('file_metadata_batch') and file.endswith('.csv'):
                 csv_files.append(os.path.join(base_dir, file))
 
         self.total_files = len(csv_files)
@@ -92,26 +92,26 @@ class SpeciesReferenceInfoImporter:
         return [fname.strip('\ufeff').strip().lower().replace(' ', '_')
                 for fname in fieldnames]
 
-    def parse_datetime(self, dt_str):
-        """解析日期时间字符串"""
-        if not dt_str:
+    def get_file_type(self, filename):
+        """根据文件名获取文件类型"""
+        if not filename:
             return None
-        try:
-            # 尝试多种日期格式
-            formats = [
-                '%Y-%m-%d %H:%M:%S',
-                '%Y-%m-%d',
-                '%Y/%m/%d %H:%M:%S',
-                '%Y/%m/%d'
-            ]
-            for fmt in formats:
-                try:
-                    return datetime.strptime(dt_str, fmt)
-                except ValueError:
-                    continue
+        ext = filename.split('.')[-1].lower()
+        if ext in ['pdf', 'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx']:
+            return ext
+        elif ext in ['jpg', 'jpeg', 'png', 'gif']:
+            return 'image'
+        else:
+            return 'other'
+
+    def validate_enum_value(self, value, enum_type):
+        """验证枚举值是否有效"""
+        if not value:
             return None
-        except Exception:
-            return None
+        value = value.strip().lower()
+        if enum_type == 'access_level' and value in ('public', 'restricted', 'private'):
+            return value
+        return None
 
     def process_csv_file(self, file_path):
         """处理单个CSV文件"""
@@ -143,40 +143,23 @@ class SpeciesReferenceInfoImporter:
                 self.total_rows += 1
                 try:
                     # 检查必填字段
-                    if not row.get('icode') or not row.get('title'):
-                        logger.warning(f"跳过缺失必填字段(icode或title)的行: {row}")
+                    if not row.get('icode') or not row.get('name') or not row.get('url'):
+                        logger.warning(f"跳过缺失必填字段(icode/name/url)的行: {row}")
                         self.failed_rows += 1
                         continue
 
                     # 准备插入数据
                     insert_data = {
-                        'reference_guid': row.get('reference_guid'),
                         'icode': int(row['icode']),
-                        'title': row['title'],
-                        'source_title': row.get('source_title'),
-                        'authors': row.get('authors'),
-                        'author_display': row.get('author_display'),
-                        'primary_category': row.get('primary_category'),
-                        'reference_type': row.get('reference_type'),
-                        'content_type': row.get('content_type'),
-                        'keywords': row.get('keywords'),
-                        'country': row.get('country'),
-                        'publish_time': self.parse_datetime(row.get('publish_time')),
-                        'publisher': row.get('publisher'),
-                        'source_detail': row.get('source_detail'),
-                        'type_code': row.get('type_code'),
-                        'execute_date': self.parse_datetime(row.get('execute_date')),
-                        'reference_text': row.get('reference_text'),
-                        'abstract': row.get('abstract'),
-                        'creator': row.get('creator'),
-                        'created_time': self.parse_datetime(row.get('created_time')) or datetime.now(),
-                        'editor': row.get('editor'),
-                        'update_time': self.parse_datetime(row.get('update_time')) or datetime.now(),
-                        'publish_person': row.get('publish_person'),
-                        'publish_record_time': self.parse_datetime(row.get('publish_record_time')),
-                        'status': row.get('status', '待审核'),
-                        'doi': row.get('doi'),
-                        'isbn_issn': row.get('isbn_issn')
+                        'name': row['name'],
+                        'url': row['url'],
+                        'file_type': self.get_file_type(row.get('name')),
+                        'file_size': int(row['file_size']) if row.get('file_size') else None,
+                        'upload_time': datetime.now(),  # 使用当前时间作为上传时间
+                        'checksum': row.get('checksum'),
+                        'access_level': self.validate_enum_value(row.get('access_level'),
+                                                                 'access_level') or 'restricted',
+                        'reference_guid': row.get('reference_guid')
                     }
 
                     # 移除None值
@@ -185,7 +168,7 @@ class SpeciesReferenceInfoImporter:
                     # 构建SQL语句
                     columns = ', '.join(insert_data.keys())
                     placeholders = ', '.join(['%s'] * len(insert_data))
-                    sql = f"INSERT INTO species_reference_info ({columns}) VALUES ({placeholders})"
+                    sql = f"INSERT INTO reference_file ({columns}) VALUES ({placeholders})"
 
                     # 执行插入
                     self.cursor.execute(sql, tuple(insert_data.values()))
@@ -248,5 +231,5 @@ class SpeciesReferenceInfoImporter:
 
 
 if __name__ == '__main__':
-    importer = SpeciesReferenceInfoImporter()
+    importer = ReferenceFileImporter()
     importer.run_import()
