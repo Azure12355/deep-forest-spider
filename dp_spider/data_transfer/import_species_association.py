@@ -1,8 +1,8 @@
 # data_transfer/species_association_import.py
-import os
 import csv
 import logging
-from datetime import datetime
+import os
+
 import pymysql
 from tqdm import tqdm
 
@@ -10,7 +10,11 @@ from tqdm import tqdm
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
+    datefmt='%Y-%m-%d %H:%M:%S',
+    handlers=[
+        logging.FileHandler('log/import_species_association.log'),
+        logging.StreamHandler()
+    ]
 )
 logger = logging.getLogger(__name__)
 

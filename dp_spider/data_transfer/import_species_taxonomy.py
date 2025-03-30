@@ -17,7 +17,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('species_taxonomy_import.log'),
+        logging.FileHandler('log/import_species_taxonomy.log'),
         logging.StreamHandler()
     ]
 )
