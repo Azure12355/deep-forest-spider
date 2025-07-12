@@ -39,6 +39,10 @@
 2.  **数据转换 (Transform)**: 运行一系列独立的 Python 清洗脚本，对原始 JSON 数据进行解析、验证、字段映射和格式化，最终生成符合数据库规范的 CSV 文件。
 3.  **数据加载 (Load)**: 执行数据导入脚本，将清洗后的 CSV 文件高效、安全地批量导入到 **MySQL** 数据库中，为上层应用提供数据支持。
 
+##  关联项目🔗
+- DeepForest后端代码: https://github.com/Azure12355/deep-forest
+- DeepForest前端代码: https://github.com/Azure12355/deep-forest-next-js
+
 ## ✨ 项目特点
 
 *   **模块化爬虫设计**: 针对不同的数据接口设计了 **11 个独立的 Scrapy 爬虫**，每个爬虫职责单一，易于维护和扩展。
